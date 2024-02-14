@@ -26,6 +26,8 @@ tuic://6313c68a-472b-4999-ba33-094a55ea7549:FRebRlCrO+huXaprEwr6@tuic6.cpionline
 
 tuic://6313c68a-472b-4999-ba33-094a55ea7549:FRebRlCrO+huXaprEwr6@tuic61.cpionline.us:443/?congestion_control=bbr&udp_relay_mode=native&alpn=h3%2Cspdy%2F3.1&sni=www.apple.com&allow_insecure=1#irancpi.net_Tuic61
 
+tuic://731a0ca6-ed14-4775-a6ac-acbcb324d572:Mashroote_Liberal2024@tuic7us2.cpionline.us:443/?congestion_control=bbr&udp_relay_mode=native&alpn=h3,spdy/3.1&allow_insecure=1#Tuic7
+
 vless://d5ed6cb7-7088-4ebb-9240-e12d241ca81f@reversereality2.cpionline.us:443/?type=grpc&encryption=none&flow=&sni=reversereality2.cpionline.us&fp=chrome&security=reality&pbk=9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc&sid=#irancpi_reality1
 
 vless://d12e661e-7837-459f-c996-10e9e91eeec0@irancpireverse.cpionline.us:2096?encryption=none&security=tls&sni=irancpireverse.cpionline.us&alpn=h2&fp=chrome&type=ws&path=%2F2053#irancpi-Vless1
