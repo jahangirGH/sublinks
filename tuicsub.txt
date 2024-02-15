@@ -50,12 +50,6 @@ trojan://8d0de334-c1a0-44ab-9362-e7916c0d268d@npmjs.com:443?security=tls&sni=ssh
 
 trojan://8d0de334-c1a0-44ab-9362-e7916c0d268d@tgju.org:443?security=tls&sni=sshhiddifyc1.cpionline.cc&alpn=h2&fp=chrome&allowinsecure=flase&type=ws&host=sshhiddifyc1.cpionline.cc&path=%2Fu5ht27KSp8j3Z2QIPbkyFm3I#Irancpi_V2ray7
 
-vless://c49955ec-a0dc-496e-ea3b-c24fa5c87c82@tgju.org:443?path=%2Fws%2F2053&security=tls&encryption=none&alpn=h3,h2&host=reversepeyman1.cpionline.us&fp=chrome&type=ws&sni=reversepeyman1.cpionline.us#irancpi_Vless_Prev3
-
-vless://c49955ec-a0dc-496e-ea3b-c24fa5c87c82@b2n.ir:443?path=%2Fws%2F2053&security=tls&encryption=none&alpn=h3,h2&host=reversepeyman1.cpionline.us&fp=chrome&type=ws&sni=reversepeyman1.cpionline.us#irancpi_Vless_Prev1
-
-vless://c49955ec-a0dc-496e-ea3b-c24fa5c87c82@zula.ir:443?path=%2Fws%2F2053&security=tls&encryption=none&alpn=h3,h2&host=reversepeyman1.cpionline.us&fp=chrome&type=ws&sni=reversepeyman1.cpionline.us#irancpi_Vless_Prev2
-
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogImMyIHRsc19oMiBncnBjIENETiB2bWVzcyIsDQogICJhZGQiOiAib2NlYW50ZWNoLmlyIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogIjAxYTdlZDkyLTNmZjctNDg3Mi04NGE4LWZjYjQ3NTc3ODNjNyIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLA0KICAibmV0IjogImdycGMiLA0KICAidHlwZSI6ICJndW4iLA0KICAiaG9zdCI6ICJyc2ZybmRjLmZvcmlyYW4ubWUiLA0KICAicGF0aCI6ICJmWThXWGJMcEY3dE9Jbk1aUVpOaW0iLA0KICAidGxzIjogInRscyIsDQogICJzbmkiOiAicnNmcm5kYy5mb3JpcmFuLm1lIiwNCiAgImFscG4iOiAiaDIiLA0KICAiZnAiOiAiY2hyb21lIg0KfQ==
 
 trojan://01a7ed92-3ff7-4872-84a8-fcb4757783c7@clean3.cpionline.cc:443?security=tls&sni=rsfndc1.cpionline.us&alpn=http%2F1.1&fp=chrome&type=ws&host=rsfndc1.cpionline.us&path=%2F3D8U0cLhe2MGwH9c1eh1994#c5%20tls%20WS%20CDN%20trojan
