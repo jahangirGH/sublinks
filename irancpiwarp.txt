@@ -1,0 +1,7 @@
+warp://S53N0C9V-tx9I634A-3H05jP7u@188.114.98.224:1843/?ifp=5-10#Irancpi.net_warp1
+
+warp://S53N0C9V-tx9I634A-3H05jP7u@162.159.192.181:3138:1843/?ifp=5-10#Irancpi.net_warp2
+
+warp://S53N0C9V-tx9I634A-3H05jP7u@188.114.99.56:1843/?ifp=5-10#Irancpi.net_warp3
+
+warp://S53N0C9V-tx9I634A-3H05jP7u@188.114.97.120:1843/?ifp=5-10#Irancpi.net_warp4
