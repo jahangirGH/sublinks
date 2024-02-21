@@ -1,1 +1,15 @@
+warp://162.159.192.115:7559/?ifp=1-5&&detour=warp://162.159.192.115:7559/?ifp=1-5#warp1
 
+warp://162.159.192.181:3138/?ifp=1-5&&detour=warp://162.159.192.181:3138/?ifp=1-5#Irancpi.net_warp2
+
+warp://162.159.195.199:3476/?ifp=1-5&&detour=warp://162.159.195.199:3476/?ifp=1-5#Irancpi.net_warp3
+
+warp://188.114.98.224:1843/?ifp=1-5&&detour=warp://188.114.98.224:1843/?ifp=1-5#Irancpi.net_warp4
+
+warp://188.114.97.120:1843/?ifp=1-5&&detour=warp://188.114.97.120:1843/?ifp=1-5#Irancpi.net_warp1
+
+warp://188.114.99.160:4500/?ifp=1-5&&detour=warp://188.114.99.160:4500/?ifp=1-5#Irancpi.net_warp2
+
+warp://[2606:4700:d0::a271:84b2:7a8a:f0b4]:939/?ifp=1-5&&detour=warp://[2606:4700:d0::a271:84b2:7a8a:f0b4]:939/?ifp=1-5#Irancpi.net_warp3
+
+warp://188.114.99.70:1843/?ifp=1-5&&detour=warp://188.114.99.70:1843/?ifp=1-5#Irancpi.net_warp4
