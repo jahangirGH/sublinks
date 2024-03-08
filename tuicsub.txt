@@ -50,27 +50,38 @@ tuic://5663790a-0291-422f-ac20-d873c42a39e4:5663790a-0291-422f-ac20-d873c42a39e4
 
 // CFWorker
 
-vless://6586fcfa-8332-4cd3-b62f-3f036b0c3c99@edtunnel.iraniancpi.uk:443?encryption=none&security=tls&sni=edtunnel.iraniancpi.uk&fp=random&type=ws&host=edtunnel.iraniancpi.uk&path=%2F%3Fed%3D2048#edtunnel.iraniancpi.uk-HTTPS-443
 vless://6586fcfa-8332-4cd3-b62f-3f036b0c3c99@gama.ir:443?encryption=none&security=tls&sni=edtunnel.iraniancpi.uk&fp=random&type=ws&host=edtunnel.iraniancpi.uk&path=%2F%3Fed%3D2048#edtunnel.iraniancpi.uk-HTTPS-443-gama.ir-EDtunnel
+
 vless://6586fcfa-8332-4cd3-b62f-3f036b0c3c99@tgju.org:443?encryption=none&security=tls&sni=edtunnel.iraniancpi.uk&fp=random&type=ws&host=edtunnel.iraniancpi.uk&path=%2F%3Fed%3D2048#edtunnel.iraniancpi.uk-HTTPS-443-tgju.org-EDtunnel
+
 vless://6586fcfa-8332-4cd3-b62f-3f036b0c3c99@npmjs.com:443?encryption=none&security=tls&sni=edtunnel.iraniancpi.uk&fp=random&type=ws&host=edtunnel.iraniancpi.uk&path=%2F%3Fed%3D2048#edtunnel.iraniancpi.uk-HTTPS-443-npmjs.com-EDtunnel
-vless://6586fcfa-8332-4cd3-b62f-3f036b0c3c99@edtunnel.iraniancpi.uk:8443?encryption=none&security=tls&sni=edtunnel.iraniancpi.uk&fp=random&type=ws&host=edtunnel.iraniancpi.uk&path=%2F%3Fed%3D2048#edtunnel.iraniancpi.uk-HTTPS-8443
+
 vless://6586fcfa-8332-4cd3-b62f-3f036b0c3c99@gama.ir:8443?encryption=none&security=tls&sni=edtunnel.iraniancpi.uk&fp=random&type=ws&host=edtunnel.iraniancpi.uk&path=%2F%3Fed%3D2048#edtunnel.iraniancpi.uk-HTTPS-8443-gama.ir-EDtunnel
+
 vless://6586fcfa-8332-4cd3-b62f-3f036b0c3c99@tgju.org:8443?encryption=none&security=tls&sni=edtunnel.iraniancpi.uk&fp=random&type=ws&host=edtunnel.iraniancpi.uk&path=%2F%3Fed%3D2048#edtunnel.iraniancpi.uk-HTTPS-8443-tgju.org-EDtunnel
+
 vless://6586fcfa-8332-4cd3-b62f-3f036b0c3c99@npmjs.com:8443?encryption=none&security=tls&sni=edtunnel.iraniancpi.uk&fp=random&type=ws&host=edtunnel.iraniancpi.uk&path=%2F%3Fed%3D2048#edtunnel.iraniancpi.uk-HTTPS-8443-npmjs.com-EDtunnel
-vless://6586fcfa-8332-4cd3-b62f-3f036b0c3c99@edtunnel.iraniancpi.uk:2053?encryption=none&security=tls&sni=edtunnel.iraniancpi.uk&fp=random&type=ws&host=edtunnel.iraniancpi.uk&path=%2F%3Fed%3D2048#edtunnel.iraniancpi.uk-HTTPS-2053
+
 vless://6586fcfa-8332-4cd3-b62f-3f036b0c3c99@gama.ir:2053?encryption=none&security=tls&sni=edtunnel.iraniancpi.uk&fp=random&type=ws&host=edtunnel.iraniancpi.uk&path=%2F%3Fed%3D2048#edtunnel.iraniancpi.uk-HTTPS-2053-gama.ir-EDtunnel
+
 vless://6586fcfa-8332-4cd3-b62f-3f036b0c3c99@tgju.org:2053?encryption=none&security=tls&sni=edtunnel.iraniancpi.uk&fp=random&type=ws&host=edtunnel.iraniancpi.uk&path=%2F%3Fed%3D2048#edtunnel.iraniancpi.uk-HTTPS-2053-tgju.org-EDtunnel
+
 vless://6586fcfa-8332-4cd3-b62f-3f036b0c3c99@npmjs.com:2053?encryption=none&security=tls&sni=edtunnel.iraniancpi.uk&fp=random&type=ws&host=edtunnel.iraniancpi.uk&path=%2F%3Fed%3D2048#edtunnel.iraniancpi.uk-HTTPS-2053-npmjs.com-EDtunnel
-vless://6586fcfa-8332-4cd3-b62f-3f036b0c3c99@edtunnel.iraniancpi.uk:2096?encryption=none&security=tls&sni=edtunnel.iraniancpi.uk&fp=random&type=ws&host=edtunnel.iraniancpi.uk&path=%2F%3Fed%3D2048#edtunnel.iraniancpi.uk-HTTPS-2096
+
 vless://6586fcfa-8332-4cd3-b62f-3f036b0c3c99@gama.ir:2096?encryption=none&security=tls&sni=edtunnel.iraniancpi.uk&fp=random&type=ws&host=edtunnel.iraniancpi.uk&path=%2F%3Fed%3D2048#edtunnel.iraniancpi.uk-HTTPS-2096-gama.ir-EDtunnel
+
 vless://6586fcfa-8332-4cd3-b62f-3f036b0c3c99@tgju.org:2096?encryption=none&security=tls&sni=edtunnel.iraniancpi.uk&fp=random&type=ws&host=edtunnel.iraniancpi.uk&path=%2F%3Fed%3D2048#edtunnel.iraniancpi.uk-HTTPS-2096-tgju.org-EDtunnel
+
 vless://6586fcfa-8332-4cd3-b62f-3f036b0c3c99@npmjs.com:2096?encryption=none&security=tls&sni=edtunnel.iraniancpi.uk&fp=random&type=ws&host=edtunnel.iraniancpi.uk&path=%2F%3Fed%3D2048#edtunnel.iraniancpi.uk-HTTPS-2096-npmjs.com-EDtunnel
-vless://6586fcfa-8332-4cd3-b62f-3f036b0c3c99@edtunnel.iraniancpi.uk:2087?encryption=none&security=tls&sni=edtunnel.iraniancpi.uk&fp=random&type=ws&host=edtunnel.iraniancpi.uk&path=%2F%3Fed%3D2048#edtunnel.iraniancpi.uk-HTTPS-2087
+
 vless://6586fcfa-8332-4cd3-b62f-3f036b0c3c99@gama.ir:2087?encryption=none&security=tls&sni=edtunnel.iraniancpi.uk&fp=random&type=ws&host=edtunnel.iraniancpi.uk&path=%2F%3Fed%3D2048#edtunnel.iraniancpi.uk-HTTPS-2087-gama.ir-EDtunnel
+
 vless://6586fcfa-8332-4cd3-b62f-3f036b0c3c99@tgju.org:2087?encryption=none&security=tls&sni=edtunnel.iraniancpi.uk&fp=random&type=ws&host=edtunnel.iraniancpi.uk&path=%2F%3Fed%3D2048#edtunnel.iraniancpi.uk-HTTPS-2087-tgju.org-EDtunnel
+
 vless://6586fcfa-8332-4cd3-b62f-3f036b0c3c99@npmjs.com:2087?encryption=none&security=tls&sni=edtunnel.iraniancpi.uk&fp=random&type=ws&host=edtunnel.iraniancpi.uk&path=%2F%3Fed%3D2048#edtunnel.iraniancpi.uk-HTTPS-2087-npmjs.com-EDtunnel
-vless://6586fcfa-8332-4cd3-b62f-3f036b0c3c99@edtunnel.iraniancpi.uk:2083?encryption=none&security=tls&sni=edtunnel.iraniancpi.uk&fp=random&type=ws&host=edtunnel.iraniancpi.uk&path=%2F%3Fed%3D2048#edtunnel.iraniancpi.uk-HTTPS-2083
+
 vless://6586fcfa-8332-4cd3-b62f-3f036b0c3c99@gama.ir:2083?encryption=none&security=tls&sni=edtunnel.iraniancpi.uk&fp=random&type=ws&host=edtunnel.iraniancpi.uk&path=%2F%3Fed%3D2048#edtunnel.iraniancpi.uk-HTTPS-2083-gama.ir-EDtunnel
+
 vless://6586fcfa-8332-4cd3-b62f-3f036b0c3c99@tgju.org:2083?encryption=none&security=tls&sni=edtunnel.iraniancpi.uk&fp=random&type=ws&host=edtunnel.iraniancpi.uk&path=%2F%3Fed%3D2048#edtunnel.iraniancpi.uk-HTTPS-2083-tgju.org-EDtunnel
+
 vless://6586fcfa-8332-4cd3-b62f-3f036b0c3c99@npmjs.com:2083?encryption=none&security=tls&sni=edtunnel.iraniancpi.uk&fp=random&type=ws&host=edtunnel.iraniancpi.uk&path=%2F%3Fed%3D2048#edtunnel.iraniancpi.uk-HTTPS-2083-npmjs.com-EDtunnel
