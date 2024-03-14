@@ -1,5 +1,5 @@
 {
-  "remarks": "IrancpinetFrag3",
+  "remarks": "Irancpinet",
   "log": {
     "access": "",
     "error": "",
@@ -72,7 +72,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "fraG2.mahSaAmINI.cC",
+          "serverName": "frAG2.MAHSAAMInI.cc",
           "alpn": [
             "h2",
             "http/1.1"
@@ -81,9 +81,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "/",
+          "path": "/CPI",
           "headers": {
-            "Host": "fraG2.mahSaAmINI.cC"
+            "Host": "frAG2.MAHSAAMInI.cc"
           }
         },
         "sockopt": {
