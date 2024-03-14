@@ -1,5 +1,5 @@
 {
-  "remarks": "Irancpinet",
+  "remarks": "Irancpinet(IRCF Frag)",
   "log": {
     "access": "",
     "error": "",
@@ -52,7 +52,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "npmjs.com",
+            "address": "gama.ir",
             "port": 443,
             "users": [
               {
@@ -72,7 +72,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "frAG2.MAHSAAMInI.cc",
+          "serverName": "fRAg2.MaHSaAmINi.Cc",
           "alpn": [
             "h2",
             "http/1.1"
@@ -83,7 +83,7 @@
         "wsSettings": {
           "path": "/CPI",
           "headers": {
-            "Host": "frAG2.MAHSAAMInI.cc"
+            "Host": "fRAg2.MaHSaAmINi.Cc"
           }
         },
         "sockopt": {
