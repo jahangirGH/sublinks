@@ -5,3 +5,9 @@ vless://a7d7308e-db89-4b00-cb43-2c54706bc8dc@datalabs.ae:2087?encryption=none&se
 vless://83576cdd-d5cf-4327-bf13-d69f5a00cc38@gama.ir:2083?encryption=none&security=tls&sni=botfrag1.mahsaamini.cc&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=botfrag1.mahsaamini.cc&path=%2Fws#Irancpi_%D8%AD%D8%B2%D8%A8%20%D9%85%D8%B4%D8%B1%D9%88%D8%B7%D9%87%20%D8%A7%DB%8C%D8%B1%D8%A7%D9%86
 
 vless://d7ea31e2-348d-47d3-bfdf-5218d9d4567d@cumhuriyet.com.tr:2053?encryption=none&security=tls&sni=botfrag1.mahsaamini.cc&alpn=h2%2Chttp%2F1.1&fp=chrome&type=ws&host=botfrag1.mahsaamini.cc&path=%2Fws#Irancpi_%D8%AD%D8%B2%D8%A8%20%D9%85%D8%B4%D8%B1%D9%88%D8%B7%D9%87%20%D8%A7%DB%8C%D8%B1%D8%A7%D9%86
+
+vless://ed7e15af-8d2b-40a6-d78a-68096d594f05@hubspot.com:2053?encryption=none&security=tls&sni=frag4.cpionline.cc&alpn=h2%2Chttp%2F1.1&fp=chrome&type=ws&host=frag4.cpionline.cc&path=%2Fws#Irancpi_%D8%AD%D8%B2%D8%A8%20%D9%85%D8%B4%D8%B1%D9%88%D8%B7%D9%87%20%D8%A7%DB%8C%D8%B1%D8%A7%D9%86
+
+vless://90656a02-d478-4526-d43b-dd55957d50cb@foxpush.com:2083?encryption=none&security=tls&sni=frag4.cpionline.cc&alpn=h2%2Chttp%2F1.1&fp=chrome&type=ws&host=frag4.cpionline.cc&path=%2Fws#Irancpi_%D8%AD%D8%B2%D8%A8%20%D9%85%D8%B4%D8%B1%D9%88%D8%B7%D9%87%20%D8%A7%DB%8C%D8%B1%D8%A7%D9%86
+
+vless://90656a02-d478-4526-d43b-dd55957d50cb@coinspeaker.com:2083?encryption=none&security=tls&sni=frag4.cpionline.cc&alpn=h2%2Chttp%2F1.1&fp=chrome&type=ws&host=frag4.cpionline.cc&path=%2Fws#Irancpi_%D8%AD%D8%B2%D8%A8%20%D9%85%D8%B4%D8%B1%D9%88%D8%B7%D9%87%20%D8%A7%DB%8C%D8%B1%D8%A7%D9%86
