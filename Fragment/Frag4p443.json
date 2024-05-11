@@ -102,7 +102,7 @@
         "fragment": {
           "packets": "tlshello",
           "length": "10-20",
-          "interval": "10-20"
+          "interval": "1-5"
         }
       },
       "streamSettings": {
