@@ -12,4 +12,4 @@ warp://162.159.195.199:3476/?ifp=1-5&&detour=tuic://731a0ca6-ed14-4775-a6ac-acbc
 
 warp://162.159.195.199:3476/?ifp=1-5&&detour=vless://d12e661e-7837-459f-c996-10e9e91eeec0@irancpireverse.cpionline.us:2096?type=ws&path=%2F2053&security=tls&fp=chrome&alpn=h2&sni=irancpireverse.cpionline.us#irancpiwarpMix7
 
-
+warp://188.114.97.120:1843/?ifp=1-5&&detour=warp://188.114.97.120:1843
