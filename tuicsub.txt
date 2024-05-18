@@ -47,3 +47,11 @@ vless://c46a54bf-b220-4c22-cd6e-fb1fcabda0af@cpanel3.sassanidempire.com:2083?enc
 vless://85e741b8-8233-4b38-e89a-2d2658119f27@cpanel3.sassanidempire.com:2087?encryption=none&security=tls&sni=cpanel3.sassanidempire.com&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=cpanel3.sassanidempire.com&path=%2Fws#Irancpi_%D8%AD%D8%B2%D8%A8%20%D9%85%D8%B4%D8%B1%D9%88%D8%B7%D9%87%20%D8%A7%DB%8C%D8%B1%D8%A7%D9%86
 
 vless://fcf99985-147b-4c71-c3f2-f448e5a379f1@cpanel3.sassanidempire.com:443?encryption=none&security=tls&sni=cpanel3.sassanidempire.com&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=cpanel3.sassanidempire.com&path=%2Fws#Irancpi_%D8%AD%D8%B2%D8%A8%20%D9%85%D8%B4%D8%B1%D9%88%D8%B7%D9%87%20%D8%A7%DB%8C%D8%B1%D8%A7%D9%86
+
+vless://791195ab-623a-4148-ada5-e05b8b0e9d81@mhsngrty1.iraniancpi.uk:443?encryption=none&security=tls&sni=mhsngrty1.iraniancpi.uk&alpn=h2%2Chttp%2F1.1&fp=chrome&type=ws&host=mhsngrty1.iraniancpi.uk&path=%2Fws#Irancpi_s5_%D8%AD%D8%B2%D8%A8%20%D9%85%D8%B4%D8%B1%D9%88%D8%B7%D9%87%20%D8%A7%DB%8C%D8%B1%D8%A7%D9%86
+
+vless://4cfcb0a4-1719-43c2-e8d7-786c12584a8a@mhsngrty1.iraniancpi.uk:2053?encryption=none&security=tls&sni=mhsngrty1.iraniancpi.uk&alpn=h2%2Chttp%2F1.1&fp=chrome&type=httpupgrade&host=mhsngrty1.iraniancpi.uk&path=%2Fhttpupgrade1#Irancpi_s5_%D8%AD%D8%B2%D8%A8%20%D9%85%D8%B4%D8%B1%D9%88%D8%B7%D9%87%20%D8%A7%DB%8C%D8%B1%D8%A7%D9%86
+
+vless://bb3bb4d7-be67-42c0-fbe3-4895387e4f74@mhsngrty1.iraniancpi.uk:2083?encryption=none&security=tls&sni=mhsngrty1.iraniancpi.uk&alpn=h2%2Chttp%2F1.1&fp=chrome&type=ws&host=mhsngrty1.iraniancpi.uk&path=%2Fws#Irancpi_s5_%D8%AD%D8%B2%D8%A8%20%D9%85%D8%B4%D8%B1%D9%88%D8%B7%D9%87%20%D8%A7%DB%8C%D8%B1%D8%A7%D9%86
+
+vless://e417134f-a7fc-4aa8-e94a-b275ff52d2b7@mhsngrty1.iraniancpi.uk:2087?encryption=none&security=tls&sni=mhsngrty1.iraniancpi.uk&alpn=h2%2Chttp%2F1.1&fp=chrome&type=httpupgrade&host=mhsngrty1.iraniancpi.uk&path=%2Fhttpupgrade1#Irancpi_s5_%D8%AD%D8%B2%D8%A8%20%D9%85%D8%B4%D8%B1%D9%88%D8%B7%D9%87%20%D8%A7%DB%8C%D8%B1%D8%A7%D9%86
