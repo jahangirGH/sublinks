@@ -5,3 +5,12 @@ warp://188.114.98.224:1843/?ifp=1-5&&detour=warp://188.114.98.224:1843/?ifp=1-5#
 warp://188.114.97.120:1843/?ifp=1-5&&detour=warp://188.114.97.120:1843/?ifp=1-5#warp5
 warp://188.114.99.160:4500/?ifp=1-5&&detour=warp://188.114.99.160:4500/?ifp=1-5#warp6
 warp://188.114.99.70:1843/?ifp=1-5&&detour=warp://188.114.99.70:1843/?ifp=1-5#warp7
+warp://162.159.192.69:4198/?ifp=1-5&&detour=warp://162.159.192.69:4198/?ifp=1-5#Irancpi.net_warp7
+warp://188.114.98.163:4500/?ifp=1-5&&detour=warp://188.114.98.163:4500/?ifp=1-5#Irancpi.net_warp8
+warp://188.114.97.123:4500/?ifp=1-5&&detour=warp://188.114.97.123:4500/?ifp=1-5#Irancpi.net_warp9
+warp://162.159.192.79:4198/?ifp=1-5&&detour=warp://162.159.192.79:4198/?ifp=1-5#Irancpi.net_warp10
+warp://188.114.96.43:4198/?ifp=1-5&&detour=warp://188.114.96.43:4198/?ifp=1-5#Irancpi.net_warp
+warp://188.114.97.85:4198/?ifp=1-5&&detour=warp://188.114.97.85:4198/?ifp=1-5#Irancpi.net_warp
+warp://188.114.98.193:4198/?ifp=1-5&&detour=warp://188.114.98.193:4198/?ifp=1-5#Irancpi.net_warp
+warp://188.114.97.194:4198/?ifp=1-5&&detour=warp://188.114.97.194:4198/?ifp=1-5#Irancpi.net_warp
+warp://162.159.195.252:4198/?ifp=1-5&&detour=warp://162.159.195.252:4198/?ifp=1-5#Irancpi.net_warp
