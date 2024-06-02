@@ -1,14 +1,12 @@
-warp://188.114.97.120:1843/?ifp=1-5&&detour=tuic://5663790a-0291-422f-ac20-d873c42a39e4:5663790a-0291-422f-ac20-d873c42a39e4@singbox.freelines.net:57034/?congestion_control=bbr&udp_relay_mode=native&sni=www.bing.com&alpn=h3&allow_insecure=1#irancpiwarpMix1
+warp://162.159.195.38:4198/?ifp=1-5&&detour=tuic://5663790a-0291-422f-ac20-d873c42a39e4:5663790a-0291-422f-ac20-d873c42a39e4@singbox.freelines.net:57034/?congestion_control=bbr&udp_relay_mode=native&sni=www.bing.com&alpn=h3&allow_insecure=1#irancpiwarpMix1
 
-warp://188.114.97.120:1843/?ifp=1-5&&detour=vless://5663790a-0291-422f-ac20-d873c42a39e4@singbox.freelines.net:60796/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.yahoo.com&fp=chrome&security=reality&pbk=wWDC8VbjkHeXvxP8ivbGguJctNC_mNF6752IFwt79Qg&sid=54dabf55#irancpiwarpMix2
+warp://188.114.97.177:4500/?ifp=1-5&&detour=tuic://dfc04908-936e-4525-94a7-bd729d5f7d42:6ikEtHLn+sTihow2a41C@tuic8.iraniancpi.uk:443/?congestion_control=bbr&udp_relay_mode=native&sni=www.google.com&alpn=h3%2Cspdy%2F3.1&allow_insecure=1#irancpiwarpMix3
 
-warp://162.159.195.199:3476/?ifp=1-5&&detour=tuic://dfc04908-936e-4525-94a7-bd729d5f7d42:6ikEtHLn+sTihow2a41C@tuic8.iraniancpi.uk:443/?congestion_control=bbr&udp_relay_mode=native&sni=www.google.com&alpn=h3%2Cspdy%2F3.1&allow_insecure=1#irancpiwarpMix3
+warp://188.114.97.148:4198/?ifp=1-5&&detour=tuic://731a0ca6-ed14-4775-a6ac-acbcb324d572:Mashroote_Liberal2024@tuic7us2.freelines.net:443/?congestion_control=bbr&udp_relay_mode=native&alpn=h3,spdy/3.1&allow_insecure=1#irancpiwarpMix4
 
-warp://188.114.99.56:1843/?ifp=1-5&&detour=tuic://731a0ca6-ed14-4775-a6ac-acbcb324d572:Mashroote_Liberal2024@tuic7us2.freelines.net:443/?congestion_control=bbr&udp_relay_mode=native&alpn=h3,spdy/3.1&allow_insecure=1#irancpiwarpMix4
+warp://162.159.192.191:4198/?ifp=1-5&&detour=tuic://dfc04908-936e-4525-94a7-bd729d5f7d42:6ikEtHLn+sTihow2a41C@tuic8.iraniancpi.uk:443/?congestion_control=bbr&udp_relay_mode=native&sni=www.google.com&alpn=h3%2Cspdy%2F3.1&allow_insecure=1#irancpiwarpMix5
 
-warp://188.114.99.56:1843/?ifp=1-5&&detour=tuic://dfc04908-936e-4525-94a7-bd729d5f7d42:6ikEtHLn+sTihow2a41C@tuic8.iraniancpi.uk:443/?congestion_control=bbr&udp_relay_mode=native&sni=www.google.com&alpn=h3%2Cspdy%2F3.1&allow_insecure=1#irancpiwarpMix5
-
-warp://162.159.195.199:3476/?ifp=1-5&&detour=tuic://731a0ca6-ed14-4775-a6ac-acbcb324d572:Mashroote_Liberal2024@tuic7us2.freelines.net:443/?congestion_control=bbr&udp_relay_mode=native&alpn=h3,spdy/3.1&allow_insecure=1#irancpiwarpMix6
+warp://188.114.99.195:4500/?ifp=1-5&&detour=tuic://731a0ca6-ed14-4775-a6ac-acbcb324d572:Mashroote_Liberal2024@tuic7us2.freelines.net:443/?congestion_control=bbr&udp_relay_mode=native&alpn=h3,spdy/3.1&allow_insecure=1#irancpiwarpMix6
 
 warp://162.159.195.199:3476/?ifp=1-5&&detour=vless://d12e661e-7837-459f-c996-10e9e91eeec0@irancpireverse.cpionline.us:2096?type=ws&path=%2F2053&security=tls&fp=chrome&alpn=h2&sni=irancpireverse.cpionline.us#irancpiwarpMix7
 
