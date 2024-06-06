@@ -1,0 +1,2519 @@
+{
+  "log": {
+    "disabled": false,
+    "level": "info",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "proxyDns",
+        "address": "8.8.8.8",
+        "detour": "select"
+      },
+      {
+        "tag": "localDns",
+        "address": "https://223.5.5.5/dns-query",
+        "detour": "direct"
+      },
+      {
+        "tag": "block",
+        "address": "rcode://success"
+      }
+    ],
+    "rules": [
+      {
+        "domain": [
+          "ghproxy.com",
+          "cdn.jsdelivr.net",
+          "testingcf.jsdelivr.net"
+        ],
+        "server": "localDns"
+      },
+      {
+        "geosite": [
+          "category-ads-all"
+        ],
+        "server": "block"
+      },
+      {
+        "server": "localDns",
+        "outbound": "any",
+        "disable_cache": true
+      },
+      {
+        "geosite": [
+          "cn"
+        ],
+        "server": "localDns"
+      },
+      {
+        "server": "localDns",
+        "clash_mode": "direct"
+      },
+      {
+        "server": "proxyDns",
+        "clash_mode": "global"
+      },
+      {
+        "geosite": [
+          "geolocation-!cn"
+        ],
+        "server": "proxyDns"
+      }
+    ],
+    "strategy": "ipv4_only"
+  },
+  "inbounds": [
+    {
+      "sniff": true,
+      "type": "mixed",
+      "listen": "127.0.0.1",
+      "listen_port": 1081
+    },
+    {
+      "stack": "system",
+      "auto_route": true,
+      "inet4_address": "172.19.0.1/30",
+      "mtu": 9000,
+      "sniff": true,
+      "strict_route": true,
+      "type": "tun",
+      "platform": {
+        "http_proxy": {
+          "enabled": true,
+          "server": "127.0.0.1",
+          "server_port": 1081
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "select",
+      "type": "selector",
+      "outbounds": [
+        "auto",
+        "c1 tls_h2 WS CDN vless",
+        "c1 tls_h2 WS CDN trojan",
+        "c1 tls_h2 WS CDN vmess",
+        "c1 tls_h2 httpupgrade CDN vless",
+        "c1 tls_h2 httpupgrade CDN vmess",
+        "c1 tls_h2 grpc CDN vless",
+        "c1 tls_h2 grpc CDN trojan",
+        "c1 tls_h2 grpc CDN vmess",
+        "c1 tls WS CDN vless",
+        "c1 tls WS CDN trojan",
+        "c1 tls WS CDN vmess",
+        "c1 tls httpupgrade CDN vless",
+        "c1 tls httpupgrade CDN vmess",
+        "c1 tls grpc CDN vless",
+        "c1 tls grpc CDN trojan",
+        "c1 tls grpc CDN vmess",
+        "c2 tls_h2 WS CDN vless",
+        "c2 tls_h2 WS CDN trojan",
+        "c2 tls_h2 WS CDN vmess",
+        "c2 tls_h2 httpupgrade CDN vless",
+        "c2 tls_h2 httpupgrade CDN vmess",
+        "c2 tls_h2 grpc CDN vless",
+        "c2 tls_h2 grpc CDN trojan",
+        "c2 tls_h2 grpc CDN vmess",
+        "c2 tls WS CDN vless",
+        "c2 tls WS CDN trojan",
+        "c2 tls WS CDN vmess",
+        "c2 tls httpupgrade CDN vless",
+        "c2 tls httpupgrade CDN vmess",
+        "c2 tls grpc CDN vless",
+        "c2 tls grpc CDN trojan",
+        "c2 tls grpc CDN vmess",
+        "c3 tls_h2 WS CDN vless",
+        "c3 tls_h2 WS CDN trojan",
+        "c3 tls_h2 WS CDN vmess",
+        "c3 tls_h2 httpupgrade CDN vless",
+        "c3 tls_h2 httpupgrade CDN vmess",
+        "c3 tls_h2 grpc CDN vless",
+        "c3 tls_h2 grpc CDN trojan",
+        "c3 tls_h2 grpc CDN vmess",
+        "c3 tls WS CDN vless",
+        "c3 tls WS CDN trojan",
+        "c3 tls WS CDN vmess",
+        "c3 tls httpupgrade CDN vless",
+        "c3 tls httpupgrade CDN vmess",
+        "c3 tls grpc CDN vless",
+        "c3 tls grpc CDN trojan",
+        "c3 tls grpc CDN vmess",
+        "c4 tls_h2 WS CDN vless",
+        "c4 tls_h2 WS CDN trojan",
+        "c4 tls_h2 WS CDN vmess",
+        "c4 tls_h2 httpupgrade CDN vless",
+        "c4 tls_h2 httpupgrade CDN vmess",
+        "c4 tls_h2 grpc CDN vless",
+        "c4 tls_h2 grpc CDN trojan",
+        "c4 tls_h2 grpc CDN vmess",
+        "c4 tls WS CDN vless",
+        "c4 tls WS CDN trojan",
+        "c4 tls WS CDN vmess",
+        "c4 tls httpupgrade CDN vless",
+        "c4 tls httpupgrade CDN vmess",
+        "c4 tls grpc CDN vless",
+        "c4 tls grpc CDN trojan",
+        "c4 tls grpc CDN vmess"
+      ]
+    },
+    {
+      "tag": "auto",
+      "type": "urltest",
+      "outbounds": [
+        "c1 tls_h2 WS CDN vless",
+        "c1 tls_h2 WS CDN trojan",
+        "c1 tls_h2 WS CDN vmess",
+        "c1 tls_h2 httpupgrade CDN vless",
+        "c1 tls_h2 httpupgrade CDN vmess",
+        "c1 tls_h2 grpc CDN vless",
+        "c1 tls_h2 grpc CDN trojan",
+        "c1 tls_h2 grpc CDN vmess",
+        "c1 tls WS CDN vless",
+        "c1 tls WS CDN trojan",
+        "c1 tls WS CDN vmess",
+        "c1 tls httpupgrade CDN vless",
+        "c1 tls httpupgrade CDN vmess",
+        "c1 tls grpc CDN vless",
+        "c1 tls grpc CDN trojan",
+        "c1 tls grpc CDN vmess",
+        "c2 tls_h2 WS CDN vless",
+        "c2 tls_h2 WS CDN trojan",
+        "c2 tls_h2 WS CDN vmess",
+        "c2 tls_h2 httpupgrade CDN vless",
+        "c2 tls_h2 httpupgrade CDN vmess",
+        "c2 tls_h2 grpc CDN vless",
+        "c2 tls_h2 grpc CDN trojan",
+        "c2 tls_h2 grpc CDN vmess",
+        "c2 tls WS CDN vless",
+        "c2 tls WS CDN trojan",
+        "c2 tls WS CDN vmess",
+        "c2 tls httpupgrade CDN vless",
+        "c2 tls httpupgrade CDN vmess",
+        "c2 tls grpc CDN vless",
+        "c2 tls grpc CDN trojan",
+        "c2 tls grpc CDN vmess",
+        "c3 tls_h2 WS CDN vless",
+        "c3 tls_h2 WS CDN trojan",
+        "c3 tls_h2 WS CDN vmess",
+        "c3 tls_h2 httpupgrade CDN vless",
+        "c3 tls_h2 httpupgrade CDN vmess",
+        "c3 tls_h2 grpc CDN vless",
+        "c3 tls_h2 grpc CDN trojan",
+        "c3 tls_h2 grpc CDN vmess",
+        "c3 tls WS CDN vless",
+        "c3 tls WS CDN trojan",
+        "c3 tls WS CDN vmess",
+        "c3 tls httpupgrade CDN vless",
+        "c3 tls httpupgrade CDN vmess",
+        "c3 tls grpc CDN vless",
+        "c3 tls grpc CDN trojan",
+        "c3 tls grpc CDN vmess",
+        "c4 tls_h2 WS CDN vless",
+        "c4 tls_h2 WS CDN trojan",
+        "c4 tls_h2 WS CDN vmess",
+        "c4 tls_h2 httpupgrade CDN vless",
+        "c4 tls_h2 httpupgrade CDN vmess",
+        "c4 tls_h2 grpc CDN vless",
+        "c4 tls_h2 grpc CDN trojan",
+        "c4 tls_h2 grpc CDN vmess",
+        "c4 tls WS CDN vless",
+        "c4 tls WS CDN trojan",
+        "c4 tls WS CDN vmess",
+        "c4 tls httpupgrade CDN vless",
+        "c4 tls httpupgrade CDN vmess",
+        "c4 tls grpc CDN vless",
+        "c4 tls grpc CDN trojan",
+        "c4 tls grpc CDN vmess"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "1m",
+      "tolerance": 50
+    },
+    {
+      "tag": "🤖 OpenAI",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "c1 tls_h2 WS CDN vless",
+        "c1 tls_h2 WS CDN trojan",
+        "c1 tls_h2 WS CDN vmess",
+        "c1 tls_h2 httpupgrade CDN vless",
+        "c1 tls_h2 httpupgrade CDN vmess",
+        "c1 tls_h2 grpc CDN vless",
+        "c1 tls_h2 grpc CDN trojan",
+        "c1 tls_h2 grpc CDN vmess",
+        "c1 tls WS CDN vless",
+        "c1 tls WS CDN trojan",
+        "c1 tls WS CDN vmess",
+        "c1 tls httpupgrade CDN vless",
+        "c1 tls httpupgrade CDN vmess",
+        "c1 tls grpc CDN vless",
+        "c1 tls grpc CDN trojan",
+        "c1 tls grpc CDN vmess",
+        "c2 tls_h2 WS CDN vless",
+        "c2 tls_h2 WS CDN trojan",
+        "c2 tls_h2 WS CDN vmess",
+        "c2 tls_h2 httpupgrade CDN vless",
+        "c2 tls_h2 httpupgrade CDN vmess",
+        "c2 tls_h2 grpc CDN vless",
+        "c2 tls_h2 grpc CDN trojan",
+        "c2 tls_h2 grpc CDN vmess",
+        "c2 tls WS CDN vless",
+        "c2 tls WS CDN trojan",
+        "c2 tls WS CDN vmess",
+        "c2 tls httpupgrade CDN vless",
+        "c2 tls httpupgrade CDN vmess",
+        "c2 tls grpc CDN vless",
+        "c2 tls grpc CDN trojan",
+        "c2 tls grpc CDN vmess",
+        "c3 tls_h2 WS CDN vless",
+        "c3 tls_h2 WS CDN trojan",
+        "c3 tls_h2 WS CDN vmess",
+        "c3 tls_h2 httpupgrade CDN vless",
+        "c3 tls_h2 httpupgrade CDN vmess",
+        "c3 tls_h2 grpc CDN vless",
+        "c3 tls_h2 grpc CDN trojan",
+        "c3 tls_h2 grpc CDN vmess",
+        "c3 tls WS CDN vless",
+        "c3 tls WS CDN trojan",
+        "c3 tls WS CDN vmess",
+        "c3 tls httpupgrade CDN vless",
+        "c3 tls httpupgrade CDN vmess",
+        "c3 tls grpc CDN vless",
+        "c3 tls grpc CDN trojan",
+        "c3 tls grpc CDN vmess",
+        "c4 tls_h2 WS CDN vless",
+        "c4 tls_h2 WS CDN trojan",
+        "c4 tls_h2 WS CDN vmess",
+        "c4 tls_h2 httpupgrade CDN vless",
+        "c4 tls_h2 httpupgrade CDN vmess",
+        "c4 tls_h2 grpc CDN vless",
+        "c4 tls_h2 grpc CDN trojan",
+        "c4 tls_h2 grpc CDN vmess",
+        "c4 tls WS CDN vless",
+        "c4 tls WS CDN trojan",
+        "c4 tls WS CDN vmess",
+        "c4 tls httpupgrade CDN vless",
+        "c4 tls httpupgrade CDN vmess",
+        "c4 tls grpc CDN vless",
+        "c4 tls grpc CDN trojan",
+        "c4 tls grpc CDN vmess"
+      ]
+    },
+    {
+      "tag": "🌌 Google",
+      "type": "selector",
+      "outbounds": [
+        "c1 tls_h2 WS CDN vless",
+        "c1 tls_h2 WS CDN trojan",
+        "c1 tls_h2 WS CDN vmess",
+        "c1 tls_h2 httpupgrade CDN vless",
+        "c1 tls_h2 httpupgrade CDN vmess",
+        "c1 tls_h2 grpc CDN vless",
+        "c1 tls_h2 grpc CDN trojan",
+        "c1 tls_h2 grpc CDN vmess",
+        "c1 tls WS CDN vless",
+        "c1 tls WS CDN trojan",
+        "c1 tls WS CDN vmess",
+        "c1 tls httpupgrade CDN vless",
+        "c1 tls httpupgrade CDN vmess",
+        "c1 tls grpc CDN vless",
+        "c1 tls grpc CDN trojan",
+        "c1 tls grpc CDN vmess",
+        "c2 tls_h2 WS CDN vless",
+        "c2 tls_h2 WS CDN trojan",
+        "c2 tls_h2 WS CDN vmess",
+        "c2 tls_h2 httpupgrade CDN vless",
+        "c2 tls_h2 httpupgrade CDN vmess",
+        "c2 tls_h2 grpc CDN vless",
+        "c2 tls_h2 grpc CDN trojan",
+        "c2 tls_h2 grpc CDN vmess",
+        "c2 tls WS CDN vless",
+        "c2 tls WS CDN trojan",
+        "c2 tls WS CDN vmess",
+        "c2 tls httpupgrade CDN vless",
+        "c2 tls httpupgrade CDN vmess",
+        "c2 tls grpc CDN vless",
+        "c2 tls grpc CDN trojan",
+        "c2 tls grpc CDN vmess",
+        "c3 tls_h2 WS CDN vless",
+        "c3 tls_h2 WS CDN trojan",
+        "c3 tls_h2 WS CDN vmess",
+        "c3 tls_h2 httpupgrade CDN vless",
+        "c3 tls_h2 httpupgrade CDN vmess",
+        "c3 tls_h2 grpc CDN vless",
+        "c3 tls_h2 grpc CDN trojan",
+        "c3 tls_h2 grpc CDN vmess",
+        "c3 tls WS CDN vless",
+        "c3 tls WS CDN trojan",
+        "c3 tls WS CDN vmess",
+        "c3 tls httpupgrade CDN vless",
+        "c3 tls httpupgrade CDN vmess",
+        "c3 tls grpc CDN vless",
+        "c3 tls grpc CDN trojan",
+        "c3 tls grpc CDN vmess",
+        "c4 tls_h2 WS CDN vless",
+        "c4 tls_h2 WS CDN trojan",
+        "c4 tls_h2 WS CDN vmess",
+        "c4 tls_h2 httpupgrade CDN vless",
+        "c4 tls_h2 httpupgrade CDN vmess",
+        "c4 tls_h2 grpc CDN vless",
+        "c4 tls_h2 grpc CDN trojan",
+        "c4 tls_h2 grpc CDN vmess",
+        "c4 tls WS CDN vless",
+        "c4 tls WS CDN trojan",
+        "c4 tls WS CDN vmess",
+        "c4 tls httpupgrade CDN vless",
+        "c4 tls httpupgrade CDN vmess",
+        "c4 tls grpc CDN vless",
+        "c4 tls grpc CDN trojan",
+        "c4 tls grpc CDN vmess"
+      ]
+    },
+    {
+      "tag": "📟 Telegram",
+      "type": "selector",
+      "outbounds": [
+        "c1 tls_h2 WS CDN vless",
+        "c1 tls_h2 WS CDN trojan",
+        "c1 tls_h2 WS CDN vmess",
+        "c1 tls_h2 httpupgrade CDN vless",
+        "c1 tls_h2 httpupgrade CDN vmess",
+        "c1 tls_h2 grpc CDN vless",
+        "c1 tls_h2 grpc CDN trojan",
+        "c1 tls_h2 grpc CDN vmess",
+        "c1 tls WS CDN vless",
+        "c1 tls WS CDN trojan",
+        "c1 tls WS CDN vmess",
+        "c1 tls httpupgrade CDN vless",
+        "c1 tls httpupgrade CDN vmess",
+        "c1 tls grpc CDN vless",
+        "c1 tls grpc CDN trojan",
+        "c1 tls grpc CDN vmess",
+        "c2 tls_h2 WS CDN vless",
+        "c2 tls_h2 WS CDN trojan",
+        "c2 tls_h2 WS CDN vmess",
+        "c2 tls_h2 httpupgrade CDN vless",
+        "c2 tls_h2 httpupgrade CDN vmess",
+        "c2 tls_h2 grpc CDN vless",
+        "c2 tls_h2 grpc CDN trojan",
+        "c2 tls_h2 grpc CDN vmess",
+        "c2 tls WS CDN vless",
+        "c2 tls WS CDN trojan",
+        "c2 tls WS CDN vmess",
+        "c2 tls httpupgrade CDN vless",
+        "c2 tls httpupgrade CDN vmess",
+        "c2 tls grpc CDN vless",
+        "c2 tls grpc CDN trojan",
+        "c2 tls grpc CDN vmess",
+        "c3 tls_h2 WS CDN vless",
+        "c3 tls_h2 WS CDN trojan",
+        "c3 tls_h2 WS CDN vmess",
+        "c3 tls_h2 httpupgrade CDN vless",
+        "c3 tls_h2 httpupgrade CDN vmess",
+        "c3 tls_h2 grpc CDN vless",
+        "c3 tls_h2 grpc CDN trojan",
+        "c3 tls_h2 grpc CDN vmess",
+        "c3 tls WS CDN vless",
+        "c3 tls WS CDN trojan",
+        "c3 tls WS CDN vmess",
+        "c3 tls httpupgrade CDN vless",
+        "c3 tls httpupgrade CDN vmess",
+        "c3 tls grpc CDN vless",
+        "c3 tls grpc CDN trojan",
+        "c3 tls grpc CDN vmess",
+        "c4 tls_h2 WS CDN vless",
+        "c4 tls_h2 WS CDN trojan",
+        "c4 tls_h2 WS CDN vmess",
+        "c4 tls_h2 httpupgrade CDN vless",
+        "c4 tls_h2 httpupgrade CDN vmess",
+        "c4 tls_h2 grpc CDN vless",
+        "c4 tls_h2 grpc CDN trojan",
+        "c4 tls_h2 grpc CDN vmess",
+        "c4 tls WS CDN vless",
+        "c4 tls WS CDN trojan",
+        "c4 tls WS CDN vmess",
+        "c4 tls httpupgrade CDN vless",
+        "c4 tls httpupgrade CDN vmess",
+        "c4 tls grpc CDN vless",
+        "c4 tls grpc CDN trojan",
+        "c4 tls grpc CDN vmess"
+      ]
+    },
+    {
+      "tag": "🐦 Twitter",
+      "type": "selector",
+      "outbounds": [
+        "c1 tls_h2 WS CDN vless",
+        "c1 tls_h2 WS CDN trojan",
+        "c1 tls_h2 WS CDN vmess",
+        "c1 tls_h2 httpupgrade CDN vless",
+        "c1 tls_h2 httpupgrade CDN vmess",
+        "c1 tls_h2 grpc CDN vless",
+        "c1 tls_h2 grpc CDN trojan",
+        "c1 tls_h2 grpc CDN vmess",
+        "c1 tls WS CDN vless",
+        "c1 tls WS CDN trojan",
+        "c1 tls WS CDN vmess",
+        "c1 tls httpupgrade CDN vless",
+        "c1 tls httpupgrade CDN vmess",
+        "c1 tls grpc CDN vless",
+        "c1 tls grpc CDN trojan",
+        "c1 tls grpc CDN vmess",
+        "c2 tls_h2 WS CDN vless",
+        "c2 tls_h2 WS CDN trojan",
+        "c2 tls_h2 WS CDN vmess",
+        "c2 tls_h2 httpupgrade CDN vless",
+        "c2 tls_h2 httpupgrade CDN vmess",
+        "c2 tls_h2 grpc CDN vless",
+        "c2 tls_h2 grpc CDN trojan",
+        "c2 tls_h2 grpc CDN vmess",
+        "c2 tls WS CDN vless",
+        "c2 tls WS CDN trojan",
+        "c2 tls WS CDN vmess",
+        "c2 tls httpupgrade CDN vless",
+        "c2 tls httpupgrade CDN vmess",
+        "c2 tls grpc CDN vless",
+        "c2 tls grpc CDN trojan",
+        "c2 tls grpc CDN vmess",
+        "c3 tls_h2 WS CDN vless",
+        "c3 tls_h2 WS CDN trojan",
+        "c3 tls_h2 WS CDN vmess",
+        "c3 tls_h2 httpupgrade CDN vless",
+        "c3 tls_h2 httpupgrade CDN vmess",
+        "c3 tls_h2 grpc CDN vless",
+        "c3 tls_h2 grpc CDN trojan",
+        "c3 tls_h2 grpc CDN vmess",
+        "c3 tls WS CDN vless",
+        "c3 tls WS CDN trojan",
+        "c3 tls WS CDN vmess",
+        "c3 tls httpupgrade CDN vless",
+        "c3 tls httpupgrade CDN vmess",
+        "c3 tls grpc CDN vless",
+        "c3 tls grpc CDN trojan",
+        "c3 tls grpc CDN vmess",
+        "c4 tls_h2 WS CDN vless",
+        "c4 tls_h2 WS CDN trojan",
+        "c4 tls_h2 WS CDN vmess",
+        "c4 tls_h2 httpupgrade CDN vless",
+        "c4 tls_h2 httpupgrade CDN vmess",
+        "c4 tls_h2 grpc CDN vless",
+        "c4 tls_h2 grpc CDN trojan",
+        "c4 tls_h2 grpc CDN vmess",
+        "c4 tls WS CDN vless",
+        "c4 tls WS CDN trojan",
+        "c4 tls WS CDN vmess",
+        "c4 tls httpupgrade CDN vless",
+        "c4 tls httpupgrade CDN vmess",
+        "c4 tls grpc CDN vless",
+        "c4 tls grpc CDN trojan",
+        "c4 tls grpc CDN vmess"
+      ]
+    },
+    {
+      "tag": "👤 Facebook",
+      "type": "selector",
+      "outbounds": [
+        "c1 tls_h2 WS CDN vless",
+        "c1 tls_h2 WS CDN trojan",
+        "c1 tls_h2 WS CDN vmess",
+        "c1 tls_h2 httpupgrade CDN vless",
+        "c1 tls_h2 httpupgrade CDN vmess",
+        "c1 tls_h2 grpc CDN vless",
+        "c1 tls_h2 grpc CDN trojan",
+        "c1 tls_h2 grpc CDN vmess",
+        "c1 tls WS CDN vless",
+        "c1 tls WS CDN trojan",
+        "c1 tls WS CDN vmess",
+        "c1 tls httpupgrade CDN vless",
+        "c1 tls httpupgrade CDN vmess",
+        "c1 tls grpc CDN vless",
+        "c1 tls grpc CDN trojan",
+        "c1 tls grpc CDN vmess",
+        "c2 tls_h2 WS CDN vless",
+        "c2 tls_h2 WS CDN trojan",
+        "c2 tls_h2 WS CDN vmess",
+        "c2 tls_h2 httpupgrade CDN vless",
+        "c2 tls_h2 httpupgrade CDN vmess",
+        "c2 tls_h2 grpc CDN vless",
+        "c2 tls_h2 grpc CDN trojan",
+        "c2 tls_h2 grpc CDN vmess",
+        "c2 tls WS CDN vless",
+        "c2 tls WS CDN trojan",
+        "c2 tls WS CDN vmess",
+        "c2 tls httpupgrade CDN vless",
+        "c2 tls httpupgrade CDN vmess",
+        "c2 tls grpc CDN vless",
+        "c2 tls grpc CDN trojan",
+        "c2 tls grpc CDN vmess",
+        "c3 tls_h2 WS CDN vless",
+        "c3 tls_h2 WS CDN trojan",
+        "c3 tls_h2 WS CDN vmess",
+        "c3 tls_h2 httpupgrade CDN vless",
+        "c3 tls_h2 httpupgrade CDN vmess",
+        "c3 tls_h2 grpc CDN vless",
+        "c3 tls_h2 grpc CDN trojan",
+        "c3 tls_h2 grpc CDN vmess",
+        "c3 tls WS CDN vless",
+        "c3 tls WS CDN trojan",
+        "c3 tls WS CDN vmess",
+        "c3 tls httpupgrade CDN vless",
+        "c3 tls httpupgrade CDN vmess",
+        "c3 tls grpc CDN vless",
+        "c3 tls grpc CDN trojan",
+        "c3 tls grpc CDN vmess",
+        "c4 tls_h2 WS CDN vless",
+        "c4 tls_h2 WS CDN trojan",
+        "c4 tls_h2 WS CDN vmess",
+        "c4 tls_h2 httpupgrade CDN vless",
+        "c4 tls_h2 httpupgrade CDN vmess",
+        "c4 tls_h2 grpc CDN vless",
+        "c4 tls_h2 grpc CDN trojan",
+        "c4 tls_h2 grpc CDN vmess",
+        "c4 tls WS CDN vless",
+        "c4 tls WS CDN trojan",
+        "c4 tls WS CDN vmess",
+        "c4 tls httpupgrade CDN vless",
+        "c4 tls httpupgrade CDN vmess",
+        "c4 tls grpc CDN vless",
+        "c4 tls grpc CDN trojan",
+        "c4 tls grpc CDN vmess"
+      ]
+    },
+    {
+      "tag": "🛍️ Amazon",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "c1 tls_h2 WS CDN vless",
+        "c1 tls_h2 WS CDN trojan",
+        "c1 tls_h2 WS CDN vmess",
+        "c1 tls_h2 httpupgrade CDN vless",
+        "c1 tls_h2 httpupgrade CDN vmess",
+        "c1 tls_h2 grpc CDN vless",
+        "c1 tls_h2 grpc CDN trojan",
+        "c1 tls_h2 grpc CDN vmess",
+        "c1 tls WS CDN vless",
+        "c1 tls WS CDN trojan",
+        "c1 tls WS CDN vmess",
+        "c1 tls httpupgrade CDN vless",
+        "c1 tls httpupgrade CDN vmess",
+        "c1 tls grpc CDN vless",
+        "c1 tls grpc CDN trojan",
+        "c1 tls grpc CDN vmess",
+        "c2 tls_h2 WS CDN vless",
+        "c2 tls_h2 WS CDN trojan",
+        "c2 tls_h2 WS CDN vmess",
+        "c2 tls_h2 httpupgrade CDN vless",
+        "c2 tls_h2 httpupgrade CDN vmess",
+        "c2 tls_h2 grpc CDN vless",
+        "c2 tls_h2 grpc CDN trojan",
+        "c2 tls_h2 grpc CDN vmess",
+        "c2 tls WS CDN vless",
+        "c2 tls WS CDN trojan",
+        "c2 tls WS CDN vmess",
+        "c2 tls httpupgrade CDN vless",
+        "c2 tls httpupgrade CDN vmess",
+        "c2 tls grpc CDN vless",
+        "c2 tls grpc CDN trojan",
+        "c2 tls grpc CDN vmess",
+        "c3 tls_h2 WS CDN vless",
+        "c3 tls_h2 WS CDN trojan",
+        "c3 tls_h2 WS CDN vmess",
+        "c3 tls_h2 httpupgrade CDN vless",
+        "c3 tls_h2 httpupgrade CDN vmess",
+        "c3 tls_h2 grpc CDN vless",
+        "c3 tls_h2 grpc CDN trojan",
+        "c3 tls_h2 grpc CDN vmess",
+        "c3 tls WS CDN vless",
+        "c3 tls WS CDN trojan",
+        "c3 tls WS CDN vmess",
+        "c3 tls httpupgrade CDN vless",
+        "c3 tls httpupgrade CDN vmess",
+        "c3 tls grpc CDN vless",
+        "c3 tls grpc CDN trojan",
+        "c3 tls grpc CDN vmess",
+        "c4 tls_h2 WS CDN vless",
+        "c4 tls_h2 WS CDN trojan",
+        "c4 tls_h2 WS CDN vmess",
+        "c4 tls_h2 httpupgrade CDN vless",
+        "c4 tls_h2 httpupgrade CDN vmess",
+        "c4 tls_h2 grpc CDN vless",
+        "c4 tls_h2 grpc CDN trojan",
+        "c4 tls_h2 grpc CDN vmess",
+        "c4 tls WS CDN vless",
+        "c4 tls WS CDN trojan",
+        "c4 tls WS CDN vmess",
+        "c4 tls httpupgrade CDN vless",
+        "c4 tls httpupgrade CDN vmess",
+        "c4 tls grpc CDN vless",
+        "c4 tls grpc CDN trojan",
+        "c4 tls grpc CDN vmess"
+      ]
+    },
+    {
+      "tag": "🍎 Apple",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "c1 tls_h2 WS CDN vless",
+        "c1 tls_h2 WS CDN trojan",
+        "c1 tls_h2 WS CDN vmess",
+        "c1 tls_h2 httpupgrade CDN vless",
+        "c1 tls_h2 httpupgrade CDN vmess",
+        "c1 tls_h2 grpc CDN vless",
+        "c1 tls_h2 grpc CDN trojan",
+        "c1 tls_h2 grpc CDN vmess",
+        "c1 tls WS CDN vless",
+        "c1 tls WS CDN trojan",
+        "c1 tls WS CDN vmess",
+        "c1 tls httpupgrade CDN vless",
+        "c1 tls httpupgrade CDN vmess",
+        "c1 tls grpc CDN vless",
+        "c1 tls grpc CDN trojan",
+        "c1 tls grpc CDN vmess",
+        "c2 tls_h2 WS CDN vless",
+        "c2 tls_h2 WS CDN trojan",
+        "c2 tls_h2 WS CDN vmess",
+        "c2 tls_h2 httpupgrade CDN vless",
+        "c2 tls_h2 httpupgrade CDN vmess",
+        "c2 tls_h2 grpc CDN vless",
+        "c2 tls_h2 grpc CDN trojan",
+        "c2 tls_h2 grpc CDN vmess",
+        "c2 tls WS CDN vless",
+        "c2 tls WS CDN trojan",
+        "c2 tls WS CDN vmess",
+        "c2 tls httpupgrade CDN vless",
+        "c2 tls httpupgrade CDN vmess",
+        "c2 tls grpc CDN vless",
+        "c2 tls grpc CDN trojan",
+        "c2 tls grpc CDN vmess",
+        "c3 tls_h2 WS CDN vless",
+        "c3 tls_h2 WS CDN trojan",
+        "c3 tls_h2 WS CDN vmess",
+        "c3 tls_h2 httpupgrade CDN vless",
+        "c3 tls_h2 httpupgrade CDN vmess",
+        "c3 tls_h2 grpc CDN vless",
+        "c3 tls_h2 grpc CDN trojan",
+        "c3 tls_h2 grpc CDN vmess",
+        "c3 tls WS CDN vless",
+        "c3 tls WS CDN trojan",
+        "c3 tls WS CDN vmess",
+        "c3 tls httpupgrade CDN vless",
+        "c3 tls httpupgrade CDN vmess",
+        "c3 tls grpc CDN vless",
+        "c3 tls grpc CDN trojan",
+        "c3 tls grpc CDN vmess",
+        "c4 tls_h2 WS CDN vless",
+        "c4 tls_h2 WS CDN trojan",
+        "c4 tls_h2 WS CDN vmess",
+        "c4 tls_h2 httpupgrade CDN vless",
+        "c4 tls_h2 httpupgrade CDN vmess",
+        "c4 tls_h2 grpc CDN vless",
+        "c4 tls_h2 grpc CDN trojan",
+        "c4 tls_h2 grpc CDN vmess",
+        "c4 tls WS CDN vless",
+        "c4 tls WS CDN trojan",
+        "c4 tls WS CDN vmess",
+        "c4 tls httpupgrade CDN vless",
+        "c4 tls httpupgrade CDN vmess",
+        "c4 tls grpc CDN vless",
+        "c4 tls grpc CDN trojan",
+        "c4 tls grpc CDN vmess"
+      ]
+    },
+    {
+      "tag": "🧩 Microsoft",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "c1 tls_h2 WS CDN vless",
+        "c1 tls_h2 WS CDN trojan",
+        "c1 tls_h2 WS CDN vmess",
+        "c1 tls_h2 httpupgrade CDN vless",
+        "c1 tls_h2 httpupgrade CDN vmess",
+        "c1 tls_h2 grpc CDN vless",
+        "c1 tls_h2 grpc CDN trojan",
+        "c1 tls_h2 grpc CDN vmess",
+        "c1 tls WS CDN vless",
+        "c1 tls WS CDN trojan",
+        "c1 tls WS CDN vmess",
+        "c1 tls httpupgrade CDN vless",
+        "c1 tls httpupgrade CDN vmess",
+        "c1 tls grpc CDN vless",
+        "c1 tls grpc CDN trojan",
+        "c1 tls grpc CDN vmess",
+        "c2 tls_h2 WS CDN vless",
+        "c2 tls_h2 WS CDN trojan",
+        "c2 tls_h2 WS CDN vmess",
+        "c2 tls_h2 httpupgrade CDN vless",
+        "c2 tls_h2 httpupgrade CDN vmess",
+        "c2 tls_h2 grpc CDN vless",
+        "c2 tls_h2 grpc CDN trojan",
+        "c2 tls_h2 grpc CDN vmess",
+        "c2 tls WS CDN vless",
+        "c2 tls WS CDN trojan",
+        "c2 tls WS CDN vmess",
+        "c2 tls httpupgrade CDN vless",
+        "c2 tls httpupgrade CDN vmess",
+        "c2 tls grpc CDN vless",
+        "c2 tls grpc CDN trojan",
+        "c2 tls grpc CDN vmess",
+        "c3 tls_h2 WS CDN vless",
+        "c3 tls_h2 WS CDN trojan",
+        "c3 tls_h2 WS CDN vmess",
+        "c3 tls_h2 httpupgrade CDN vless",
+        "c3 tls_h2 httpupgrade CDN vmess",
+        "c3 tls_h2 grpc CDN vless",
+        "c3 tls_h2 grpc CDN trojan",
+        "c3 tls_h2 grpc CDN vmess",
+        "c3 tls WS CDN vless",
+        "c3 tls WS CDN trojan",
+        "c3 tls WS CDN vmess",
+        "c3 tls httpupgrade CDN vless",
+        "c3 tls httpupgrade CDN vmess",
+        "c3 tls grpc CDN vless",
+        "c3 tls grpc CDN trojan",
+        "c3 tls grpc CDN vmess",
+        "c4 tls_h2 WS CDN vless",
+        "c4 tls_h2 WS CDN trojan",
+        "c4 tls_h2 WS CDN vmess",
+        "c4 tls_h2 httpupgrade CDN vless",
+        "c4 tls_h2 httpupgrade CDN vmess",
+        "c4 tls_h2 grpc CDN vless",
+        "c4 tls_h2 grpc CDN trojan",
+        "c4 tls_h2 grpc CDN vmess",
+        "c4 tls WS CDN vless",
+        "c4 tls WS CDN trojan",
+        "c4 tls WS CDN vmess",
+        "c4 tls httpupgrade CDN vless",
+        "c4 tls httpupgrade CDN vmess",
+        "c4 tls grpc CDN vless",
+        "c4 tls grpc CDN trojan",
+        "c4 tls grpc CDN vmess"
+      ]
+    },
+    {
+      "tag": "🎮 Game",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "c1 tls_h2 WS CDN vless",
+        "c1 tls_h2 WS CDN trojan",
+        "c1 tls_h2 WS CDN vmess",
+        "c1 tls_h2 httpupgrade CDN vless",
+        "c1 tls_h2 httpupgrade CDN vmess",
+        "c1 tls_h2 grpc CDN vless",
+        "c1 tls_h2 grpc CDN trojan",
+        "c1 tls_h2 grpc CDN vmess",
+        "c1 tls WS CDN vless",
+        "c1 tls WS CDN trojan",
+        "c1 tls WS CDN vmess",
+        "c1 tls httpupgrade CDN vless",
+        "c1 tls httpupgrade CDN vmess",
+        "c1 tls grpc CDN vless",
+        "c1 tls grpc CDN trojan",
+        "c1 tls grpc CDN vmess",
+        "c2 tls_h2 WS CDN vless",
+        "c2 tls_h2 WS CDN trojan",
+        "c2 tls_h2 WS CDN vmess",
+        "c2 tls_h2 httpupgrade CDN vless",
+        "c2 tls_h2 httpupgrade CDN vmess",
+        "c2 tls_h2 grpc CDN vless",
+        "c2 tls_h2 grpc CDN trojan",
+        "c2 tls_h2 grpc CDN vmess",
+        "c2 tls WS CDN vless",
+        "c2 tls WS CDN trojan",
+        "c2 tls WS CDN vmess",
+        "c2 tls httpupgrade CDN vless",
+        "c2 tls httpupgrade CDN vmess",
+        "c2 tls grpc CDN vless",
+        "c2 tls grpc CDN trojan",
+        "c2 tls grpc CDN vmess",
+        "c3 tls_h2 WS CDN vless",
+        "c3 tls_h2 WS CDN trojan",
+        "c3 tls_h2 WS CDN vmess",
+        "c3 tls_h2 httpupgrade CDN vless",
+        "c3 tls_h2 httpupgrade CDN vmess",
+        "c3 tls_h2 grpc CDN vless",
+        "c3 tls_h2 grpc CDN trojan",
+        "c3 tls_h2 grpc CDN vmess",
+        "c3 tls WS CDN vless",
+        "c3 tls WS CDN trojan",
+        "c3 tls WS CDN vmess",
+        "c3 tls httpupgrade CDN vless",
+        "c3 tls httpupgrade CDN vmess",
+        "c3 tls grpc CDN vless",
+        "c3 tls grpc CDN trojan",
+        "c3 tls grpc CDN vmess",
+        "c4 tls_h2 WS CDN vless",
+        "c4 tls_h2 WS CDN trojan",
+        "c4 tls_h2 WS CDN vmess",
+        "c4 tls_h2 httpupgrade CDN vless",
+        "c4 tls_h2 httpupgrade CDN vmess",
+        "c4 tls_h2 grpc CDN vless",
+        "c4 tls_h2 grpc CDN trojan",
+        "c4 tls_h2 grpc CDN vmess",
+        "c4 tls WS CDN vless",
+        "c4 tls WS CDN trojan",
+        "c4 tls WS CDN vmess",
+        "c4 tls httpupgrade CDN vless",
+        "c4 tls httpupgrade CDN vmess",
+        "c4 tls grpc CDN vless",
+        "c4 tls grpc CDN trojan",
+        "c4 tls grpc CDN vmess"
+      ]
+    },
+    {
+      "tag": "📺 Bilibili",
+      "type": "selector",
+      "outbounds": [
+        "direct"
+      ]
+    },
+    {
+      "tag": "🎬 MediaVideo",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "c1 tls_h2 WS CDN vless",
+        "c1 tls_h2 WS CDN trojan",
+        "c1 tls_h2 WS CDN vmess",
+        "c1 tls_h2 httpupgrade CDN vless",
+        "c1 tls_h2 httpupgrade CDN vmess",
+        "c1 tls_h2 grpc CDN vless",
+        "c1 tls_h2 grpc CDN trojan",
+        "c1 tls_h2 grpc CDN vmess",
+        "c1 tls WS CDN vless",
+        "c1 tls WS CDN trojan",
+        "c1 tls WS CDN vmess",
+        "c1 tls httpupgrade CDN vless",
+        "c1 tls httpupgrade CDN vmess",
+        "c1 tls grpc CDN vless",
+        "c1 tls grpc CDN trojan",
+        "c1 tls grpc CDN vmess",
+        "c2 tls_h2 WS CDN vless",
+        "c2 tls_h2 WS CDN trojan",
+        "c2 tls_h2 WS CDN vmess",
+        "c2 tls_h2 httpupgrade CDN vless",
+        "c2 tls_h2 httpupgrade CDN vmess",
+        "c2 tls_h2 grpc CDN vless",
+        "c2 tls_h2 grpc CDN trojan",
+        "c2 tls_h2 grpc CDN vmess",
+        "c2 tls WS CDN vless",
+        "c2 tls WS CDN trojan",
+        "c2 tls WS CDN vmess",
+        "c2 tls httpupgrade CDN vless",
+        "c2 tls httpupgrade CDN vmess",
+        "c2 tls grpc CDN vless",
+        "c2 tls grpc CDN trojan",
+        "c2 tls grpc CDN vmess",
+        "c3 tls_h2 WS CDN vless",
+        "c3 tls_h2 WS CDN trojan",
+        "c3 tls_h2 WS CDN vmess",
+        "c3 tls_h2 httpupgrade CDN vless",
+        "c3 tls_h2 httpupgrade CDN vmess",
+        "c3 tls_h2 grpc CDN vless",
+        "c3 tls_h2 grpc CDN trojan",
+        "c3 tls_h2 grpc CDN vmess",
+        "c3 tls WS CDN vless",
+        "c3 tls WS CDN trojan",
+        "c3 tls WS CDN vmess",
+        "c3 tls httpupgrade CDN vless",
+        "c3 tls httpupgrade CDN vmess",
+        "c3 tls grpc CDN vless",
+        "c3 tls grpc CDN trojan",
+        "c3 tls grpc CDN vmess",
+        "c4 tls_h2 WS CDN vless",
+        "c4 tls_h2 WS CDN trojan",
+        "c4 tls_h2 WS CDN vmess",
+        "c4 tls_h2 httpupgrade CDN vless",
+        "c4 tls_h2 httpupgrade CDN vmess",
+        "c4 tls_h2 grpc CDN vless",
+        "c4 tls_h2 grpc CDN trojan",
+        "c4 tls_h2 grpc CDN vmess",
+        "c4 tls WS CDN vless",
+        "c4 tls WS CDN trojan",
+        "c4 tls WS CDN vmess",
+        "c4 tls httpupgrade CDN vless",
+        "c4 tls httpupgrade CDN vmess",
+        "c4 tls grpc CDN vless",
+        "c4 tls grpc CDN trojan",
+        "c4 tls grpc CDN vmess"
+      ]
+    },
+    {
+      "tag": "🌏 !cn",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "c1 tls_h2 WS CDN vless",
+        "c1 tls_h2 WS CDN trojan",
+        "c1 tls_h2 WS CDN vmess",
+        "c1 tls_h2 httpupgrade CDN vless",
+        "c1 tls_h2 httpupgrade CDN vmess",
+        "c1 tls_h2 grpc CDN vless",
+        "c1 tls_h2 grpc CDN trojan",
+        "c1 tls_h2 grpc CDN vmess",
+        "c1 tls WS CDN vless",
+        "c1 tls WS CDN trojan",
+        "c1 tls WS CDN vmess",
+        "c1 tls httpupgrade CDN vless",
+        "c1 tls httpupgrade CDN vmess",
+        "c1 tls grpc CDN vless",
+        "c1 tls grpc CDN trojan",
+        "c1 tls grpc CDN vmess",
+        "c2 tls_h2 WS CDN vless",
+        "c2 tls_h2 WS CDN trojan",
+        "c2 tls_h2 WS CDN vmess",
+        "c2 tls_h2 httpupgrade CDN vless",
+        "c2 tls_h2 httpupgrade CDN vmess",
+        "c2 tls_h2 grpc CDN vless",
+        "c2 tls_h2 grpc CDN trojan",
+        "c2 tls_h2 grpc CDN vmess",
+        "c2 tls WS CDN vless",
+        "c2 tls WS CDN trojan",
+        "c2 tls WS CDN vmess",
+        "c2 tls httpupgrade CDN vless",
+        "c2 tls httpupgrade CDN vmess",
+        "c2 tls grpc CDN vless",
+        "c2 tls grpc CDN trojan",
+        "c2 tls grpc CDN vmess",
+        "c3 tls_h2 WS CDN vless",
+        "c3 tls_h2 WS CDN trojan",
+        "c3 tls_h2 WS CDN vmess",
+        "c3 tls_h2 httpupgrade CDN vless",
+        "c3 tls_h2 httpupgrade CDN vmess",
+        "c3 tls_h2 grpc CDN vless",
+        "c3 tls_h2 grpc CDN trojan",
+        "c3 tls_h2 grpc CDN vmess",
+        "c3 tls WS CDN vless",
+        "c3 tls WS CDN trojan",
+        "c3 tls WS CDN vmess",
+        "c3 tls httpupgrade CDN vless",
+        "c3 tls httpupgrade CDN vmess",
+        "c3 tls grpc CDN vless",
+        "c3 tls grpc CDN trojan",
+        "c3 tls grpc CDN vmess",
+        "c4 tls_h2 WS CDN vless",
+        "c4 tls_h2 WS CDN trojan",
+        "c4 tls_h2 WS CDN vmess",
+        "c4 tls_h2 httpupgrade CDN vless",
+        "c4 tls_h2 httpupgrade CDN vmess",
+        "c4 tls_h2 grpc CDN vless",
+        "c4 tls_h2 grpc CDN trojan",
+        "c4 tls_h2 grpc CDN vmess",
+        "c4 tls WS CDN vless",
+        "c4 tls WS CDN trojan",
+        "c4 tls WS CDN vmess",
+        "c4 tls httpupgrade CDN vless",
+        "c4 tls httpupgrade CDN vmess",
+        "c4 tls grpc CDN vless",
+        "c4 tls grpc CDN trojan",
+        "c4 tls grpc CDN vmess"
+      ]
+    },
+    {
+      "tag": "🌏 cn",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "select"
+      ]
+    },
+    {
+      "tag": "🛑 AdBlock",
+      "type": "selector",
+      "outbounds": [
+        "block",
+        "direct"
+      ]
+    },
+    {
+      "tag": "direct",
+      "type": "direct"
+    },
+    {
+      "tag": "block",
+      "type": "block"
+    },
+    {
+      "tag": "dns-out",
+      "type": "dns"
+    },
+    {
+      "server": "nodejs.org",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c1.cpiforpersia.uk",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "path": "/LNGeLLJXXIlSdZMqnuxG",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c1 tls_h2 WS CDN vless",
+      "type": "vless"
+    },
+    {
+      "server": "nodejs.org",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c1.cpiforpersia.uk",
+        "insecure": true,
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "path": "/yX0QnbDjsmiMK0XXIlSdZMqnuxG",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "password": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c1 tls_h2 WS CDN trojan",
+      "type": "trojan"
+    },
+    {
+      "server": "nodejs.org",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c1.cpiforpersia.uk"
+      },
+      "transport": {
+        "path": "/QvtvPdDXXIlSdZMqnuxG",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "packet_encoding": "xudp",
+      "security": "chacha20-poly1305",
+      "alter_id": 0,
+      "tag": "c1 tls_h2 WS CDN vmess",
+      "type": "vmess"
+    },
+    {
+      "server": "nodejs.org",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c1.cpiforpersia.uk",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "type": "httpupgrade"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c1 tls_h2 httpupgrade CDN vless",
+      "type": "vless"
+    },
+    {
+      "server": "nodejs.org",
+      "server_port": 443,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "httpupgrade"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "packet_encoding": "xudp",
+      "security": "chacha20-poly1305",
+      "alter_id": 0,
+      "tag": "c1 tls_h2 httpupgrade CDN vmess",
+      "type": "vmess"
+    },
+    {
+      "server": "nodejs.org",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c1.cpiforpersia.uk",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "LNGeLLJtWl4JWOU9ID6IU"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c1 tls_h2 grpc CDN vless",
+      "type": "vless"
+    },
+    {
+      "server": "nodejs.org",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c1.cpiforpersia.uk",
+        "insecure": true,
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "yX0QnbDjsmiMK0tWl4JWOU9ID6IU",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s",
+        "permit_without_stream": false
+      },
+      "password": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c1 tls_h2 grpc CDN trojan",
+      "type": "trojan"
+    },
+    {
+      "server": "nodejs.org",
+      "server_port": 443,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "QvtvPdDtWl4JWOU9ID6IU"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "packet_encoding": "xudp",
+      "security": "chacha20-poly1305",
+      "alter_id": 0,
+      "tag": "c1 tls_h2 grpc CDN vmess",
+      "type": "vmess"
+    },
+    {
+      "server": "nodejs.org",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c1.cpiforpersia.uk",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "path": "/LNGeLLJXXIlSdZMqnuxG",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c1 tls WS CDN vless",
+      "type": "vless"
+    },
+    {
+      "server": "nodejs.org",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c1.cpiforpersia.uk",
+        "insecure": true,
+        "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "path": "/yX0QnbDjsmiMK0XXIlSdZMqnuxG",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "password": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c1 tls WS CDN trojan",
+      "type": "trojan"
+    },
+    {
+      "server": "nodejs.org",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c1.cpiforpersia.uk"
+      },
+      "transport": {
+        "path": "/QvtvPdDXXIlSdZMqnuxG",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "packet_encoding": "xudp",
+      "security": "chacha20-poly1305",
+      "alter_id": 0,
+      "tag": "c1 tls WS CDN vmess",
+      "type": "vmess"
+    },
+    {
+      "server": "nodejs.org",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c1.cpiforpersia.uk",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "httpupgrade"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c1 tls httpupgrade CDN vless",
+      "type": "vless"
+    },
+    {
+      "server": "nodejs.org",
+      "server_port": 443,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "httpupgrade"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "packet_encoding": "xudp",
+      "security": "chacha20-poly1305",
+      "alter_id": 0,
+      "tag": "c1 tls httpupgrade CDN vmess",
+      "type": "vmess"
+    },
+    {
+      "server": "nodejs.org",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c1.cpiforpersia.uk",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "LNGeLLJtWl4JWOU9ID6IU"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c1 tls grpc CDN vless",
+      "type": "vless"
+    },
+    {
+      "server": "nodejs.org",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c1.cpiforpersia.uk",
+        "insecure": true,
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "yX0QnbDjsmiMK0tWl4JWOU9ID6IU",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s",
+        "permit_without_stream": false
+      },
+      "password": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c1 tls grpc CDN trojan",
+      "type": "trojan"
+    },
+    {
+      "server": "nodejs.org",
+      "server_port": 443,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "QvtvPdDtWl4JWOU9ID6IU"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "packet_encoding": "xudp",
+      "security": "chacha20-poly1305",
+      "alter_id": 0,
+      "tag": "c1 tls grpc CDN vmess",
+      "type": "vmess"
+    },
+    {
+      "server": "npmjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c2.freeairlaines.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "path": "/LNGeLLJXXIlSdZMqnuxG",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c2 tls_h2 WS CDN vless",
+      "type": "vless"
+    },
+    {
+      "server": "npmjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c2.freeairlaines.com",
+        "insecure": true,
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "path": "/yX0QnbDjsmiMK0XXIlSdZMqnuxG",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "password": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c2 tls_h2 WS CDN trojan",
+      "type": "trojan"
+    },
+    {
+      "server": "npmjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c2.freeairlaines.com"
+      },
+      "transport": {
+        "path": "/QvtvPdDXXIlSdZMqnuxG",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "packet_encoding": "xudp",
+      "security": "chacha20-poly1305",
+      "alter_id": 0,
+      "tag": "c2 tls_h2 WS CDN vmess",
+      "type": "vmess"
+    },
+    {
+      "server": "npmjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c2.freeairlaines.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "type": "httpupgrade"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c2 tls_h2 httpupgrade CDN vless",
+      "type": "vless"
+    },
+    {
+      "server": "npmjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "httpupgrade"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "packet_encoding": "xudp",
+      "security": "chacha20-poly1305",
+      "alter_id": 0,
+      "tag": "c2 tls_h2 httpupgrade CDN vmess",
+      "type": "vmess"
+    },
+    {
+      "server": "npmjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c2.freeairlaines.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "LNGeLLJtWl4JWOU9ID6IU"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c2 tls_h2 grpc CDN vless",
+      "type": "vless"
+    },
+    {
+      "server": "npmjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c2.freeairlaines.com",
+        "insecure": true,
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "yX0QnbDjsmiMK0tWl4JWOU9ID6IU",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s",
+        "permit_without_stream": false
+      },
+      "password": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c2 tls_h2 grpc CDN trojan",
+      "type": "trojan"
+    },
+    {
+      "server": "npmjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "QvtvPdDtWl4JWOU9ID6IU"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "packet_encoding": "xudp",
+      "security": "chacha20-poly1305",
+      "alter_id": 0,
+      "tag": "c2 tls_h2 grpc CDN vmess",
+      "type": "vmess"
+    },
+    {
+      "server": "npmjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c2.freeairlaines.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "path": "/LNGeLLJXXIlSdZMqnuxG",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c2 tls WS CDN vless",
+      "type": "vless"
+    },
+    {
+      "server": "npmjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c2.freeairlaines.com",
+        "insecure": true,
+        "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "path": "/yX0QnbDjsmiMK0XXIlSdZMqnuxG",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "password": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c2 tls WS CDN trojan",
+      "type": "trojan"
+    },
+    {
+      "server": "npmjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c2.freeairlaines.com"
+      },
+      "transport": {
+        "path": "/QvtvPdDXXIlSdZMqnuxG",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "packet_encoding": "xudp",
+      "security": "chacha20-poly1305",
+      "alter_id": 0,
+      "tag": "c2 tls WS CDN vmess",
+      "type": "vmess"
+    },
+    {
+      "server": "npmjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c2.freeairlaines.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "httpupgrade"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c2 tls httpupgrade CDN vless",
+      "type": "vless"
+    },
+    {
+      "server": "npmjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "httpupgrade"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "packet_encoding": "xudp",
+      "security": "chacha20-poly1305",
+      "alter_id": 0,
+      "tag": "c2 tls httpupgrade CDN vmess",
+      "type": "vmess"
+    },
+    {
+      "server": "npmjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c2.freeairlaines.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "LNGeLLJtWl4JWOU9ID6IU"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c2 tls grpc CDN vless",
+      "type": "vless"
+    },
+    {
+      "server": "npmjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c2.freeairlaines.com",
+        "insecure": true,
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "yX0QnbDjsmiMK0tWl4JWOU9ID6IU",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s",
+        "permit_without_stream": false
+      },
+      "password": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c2 tls grpc CDN trojan",
+      "type": "trojan"
+    },
+    {
+      "server": "npmjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "QvtvPdDtWl4JWOU9ID6IU"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "packet_encoding": "xudp",
+      "security": "chacha20-poly1305",
+      "alter_id": 0,
+      "tag": "c2 tls grpc CDN vmess",
+      "type": "vmess"
+    },
+    {
+      "server": "cdnjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c3.iraniancpi.uk",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "path": "/LNGeLLJXXIlSdZMqnuxG",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c3 tls_h2 WS CDN vless",
+      "type": "vless"
+    },
+    {
+      "server": "cdnjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c3.iraniancpi.uk",
+        "insecure": true,
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "path": "/yX0QnbDjsmiMK0XXIlSdZMqnuxG",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "password": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c3 tls_h2 WS CDN trojan",
+      "type": "trojan"
+    },
+    {
+      "server": "cdnjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c3.iraniancpi.uk"
+      },
+      "transport": {
+        "path": "/QvtvPdDXXIlSdZMqnuxG",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "packet_encoding": "xudp",
+      "security": "chacha20-poly1305",
+      "alter_id": 0,
+      "tag": "c3 tls_h2 WS CDN vmess",
+      "type": "vmess"
+    },
+    {
+      "server": "cdnjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c3.iraniancpi.uk",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "type": "httpupgrade"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c3 tls_h2 httpupgrade CDN vless",
+      "type": "vless"
+    },
+    {
+      "server": "cdnjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "httpupgrade"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "packet_encoding": "xudp",
+      "security": "chacha20-poly1305",
+      "alter_id": 0,
+      "tag": "c3 tls_h2 httpupgrade CDN vmess",
+      "type": "vmess"
+    },
+    {
+      "server": "cdnjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c3.iraniancpi.uk",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "LNGeLLJtWl4JWOU9ID6IU"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c3 tls_h2 grpc CDN vless",
+      "type": "vless"
+    },
+    {
+      "server": "cdnjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c3.iraniancpi.uk",
+        "insecure": true,
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "yX0QnbDjsmiMK0tWl4JWOU9ID6IU",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s",
+        "permit_without_stream": false
+      },
+      "password": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c3 tls_h2 grpc CDN trojan",
+      "type": "trojan"
+    },
+    {
+      "server": "cdnjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "QvtvPdDtWl4JWOU9ID6IU"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "packet_encoding": "xudp",
+      "security": "chacha20-poly1305",
+      "alter_id": 0,
+      "tag": "c3 tls_h2 grpc CDN vmess",
+      "type": "vmess"
+    },
+    {
+      "server": "cdnjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c3.iraniancpi.uk",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "path": "/LNGeLLJXXIlSdZMqnuxG",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c3 tls WS CDN vless",
+      "type": "vless"
+    },
+    {
+      "server": "cdnjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c3.iraniancpi.uk",
+        "insecure": true,
+        "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "path": "/yX0QnbDjsmiMK0XXIlSdZMqnuxG",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "password": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c3 tls WS CDN trojan",
+      "type": "trojan"
+    },
+    {
+      "server": "cdnjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c3.iraniancpi.uk"
+      },
+      "transport": {
+        "path": "/QvtvPdDXXIlSdZMqnuxG",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "packet_encoding": "xudp",
+      "security": "chacha20-poly1305",
+      "alter_id": 0,
+      "tag": "c3 tls WS CDN vmess",
+      "type": "vmess"
+    },
+    {
+      "server": "cdnjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c3.iraniancpi.uk",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "httpupgrade"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c3 tls httpupgrade CDN vless",
+      "type": "vless"
+    },
+    {
+      "server": "cdnjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "httpupgrade"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "packet_encoding": "xudp",
+      "security": "chacha20-poly1305",
+      "alter_id": 0,
+      "tag": "c3 tls httpupgrade CDN vmess",
+      "type": "vmess"
+    },
+    {
+      "server": "cdnjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c3.iraniancpi.uk",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "LNGeLLJtWl4JWOU9ID6IU"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c3 tls grpc CDN vless",
+      "type": "vless"
+    },
+    {
+      "server": "cdnjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c3.iraniancpi.uk",
+        "insecure": true,
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "yX0QnbDjsmiMK0tWl4JWOU9ID6IU",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s",
+        "permit_without_stream": false
+      },
+      "password": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c3 tls grpc CDN trojan",
+      "type": "trojan"
+    },
+    {
+      "server": "cdnjs.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "QvtvPdDtWl4JWOU9ID6IU"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "packet_encoding": "xudp",
+      "security": "chacha20-poly1305",
+      "alter_id": 0,
+      "tag": "c3 tls grpc CDN vmess",
+      "type": "vmess"
+    },
+    {
+      "server": "bluehost.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c4.sassanidempire.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "path": "/LNGeLLJXXIlSdZMqnuxG",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c4 tls_h2 WS CDN vless",
+      "type": "vless"
+    },
+    {
+      "server": "bluehost.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c4.sassanidempire.com",
+        "insecure": true,
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "path": "/yX0QnbDjsmiMK0XXIlSdZMqnuxG",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "password": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c4 tls_h2 WS CDN trojan",
+      "type": "trojan"
+    },
+    {
+      "server": "bluehost.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c4.sassanidempire.com"
+      },
+      "transport": {
+        "path": "/QvtvPdDXXIlSdZMqnuxG",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "packet_encoding": "xudp",
+      "security": "chacha20-poly1305",
+      "alter_id": 0,
+      "tag": "c4 tls_h2 WS CDN vmess",
+      "type": "vmess"
+    },
+    {
+      "server": "bluehost.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c4.sassanidempire.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "type": "httpupgrade"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c4 tls_h2 httpupgrade CDN vless",
+      "type": "vless"
+    },
+    {
+      "server": "bluehost.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "httpupgrade"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "packet_encoding": "xudp",
+      "security": "chacha20-poly1305",
+      "alter_id": 0,
+      "tag": "c4 tls_h2 httpupgrade CDN vmess",
+      "type": "vmess"
+    },
+    {
+      "server": "bluehost.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c4.sassanidempire.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "LNGeLLJtWl4JWOU9ID6IU"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c4 tls_h2 grpc CDN vless",
+      "type": "vless"
+    },
+    {
+      "server": "bluehost.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c4.sassanidempire.com",
+        "insecure": true,
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "yX0QnbDjsmiMK0tWl4JWOU9ID6IU",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s",
+        "permit_without_stream": false
+      },
+      "password": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c4 tls_h2 grpc CDN trojan",
+      "type": "trojan"
+    },
+    {
+      "server": "bluehost.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "QvtvPdDtWl4JWOU9ID6IU"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "packet_encoding": "xudp",
+      "security": "chacha20-poly1305",
+      "alter_id": 0,
+      "tag": "c4 tls_h2 grpc CDN vmess",
+      "type": "vmess"
+    },
+    {
+      "server": "bluehost.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c4.sassanidempire.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "path": "/LNGeLLJXXIlSdZMqnuxG",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c4 tls WS CDN vless",
+      "type": "vless"
+    },
+    {
+      "server": "bluehost.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c4.sassanidempire.com",
+        "insecure": true,
+        "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "path": "/yX0QnbDjsmiMK0XXIlSdZMqnuxG",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "password": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c4 tls WS CDN trojan",
+      "type": "trojan"
+    },
+    {
+      "server": "bluehost.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c4.sassanidempire.com"
+      },
+      "transport": {
+        "path": "/QvtvPdDXXIlSdZMqnuxG",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "packet_encoding": "xudp",
+      "security": "chacha20-poly1305",
+      "alter_id": 0,
+      "tag": "c4 tls WS CDN vmess",
+      "type": "vmess"
+    },
+    {
+      "server": "bluehost.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c4.sassanidempire.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "httpupgrade"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c4 tls httpupgrade CDN vless",
+      "type": "vless"
+    },
+    {
+      "server": "bluehost.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "httpupgrade"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "packet_encoding": "xudp",
+      "security": "chacha20-poly1305",
+      "alter_id": 0,
+      "tag": "c4 tls httpupgrade CDN vmess",
+      "type": "vmess"
+    },
+    {
+      "server": "bluehost.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c4.sassanidempire.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "LNGeLLJtWl4JWOU9ID6IU"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c4 tls grpc CDN vless",
+      "type": "vless"
+    },
+    {
+      "server": "bluehost.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy1c4.sassanidempire.com",
+        "insecure": true,
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "yX0QnbDjsmiMK0tWl4JWOU9ID6IU",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s",
+        "permit_without_stream": false
+      },
+      "password": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "tag": "c4 tls grpc CDN trojan",
+      "type": "trojan"
+    },
+    {
+      "server": "bluehost.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "QvtvPdDtWl4JWOU9ID6IU"
+      },
+      "uuid": "0df9fd15-7891-466f-bf95-3e5ceaf07319",
+      "packet_encoding": "xudp",
+      "security": "chacha20-poly1305",
+      "alter_id": 0,
+      "tag": "c4 tls grpc CDN vmess",
+      "type": "vmess"
+    }
+  ],
+  "route": {
+    "geoip": {
+      "download_url": "https://github.com/soffchen/sing-geoip/releases/latest/download/geoip.db",
+      "download_detour": "select"
+    },
+    "geosite": {
+      "download_url": "https://github.com/soffchen/sing-geosite/releases/latest/download/geosite.db",
+      "download_detour": "select"
+    },
+    "rules": [
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      },
+      {
+        "network": "udp",
+        "port": 443,
+        "outbound": "block"
+      },
+      {
+        "clash_mode": "direct",
+        "outbound": "direct"
+      },
+      {
+        "clash_mode": "global",
+        "outbound": "select"
+      },
+      {
+        "domain": [
+          "v2rayse.com",
+          "cfmem.com",
+          "vpnse.org",
+          "cff.pw",
+          "tt.vg"
+        ],
+        "outbound": "select"
+      },
+      {
+        "domain": [
+          "clash.razord.top",
+          "yacd.metacubex.one",
+          "yacd.haishan.me",
+          "d.metacubex.one"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "geosite": [
+          "openai"
+        ],
+        "outbound": "🤖 OpenAI"
+      },
+      {
+        "geosite": [
+          "google",
+          "github"
+        ],
+        "geoip": [
+          "google"
+        ],
+        "outbound": "🌌 Google"
+      },
+      {
+        "geosite": [
+          "telegram"
+        ],
+        "geoip": [
+          "telegram"
+        ],
+        "outbound": "📟 Telegram"
+      },
+      {
+        "geosite": [
+          "twitter"
+        ],
+        "geoip": [
+          "twitter"
+        ],
+        "outbound": "🐦 Twitter"
+      },
+      {
+        "geosite": [
+          "facebook",
+          "instagram"
+        ],
+        "geoip": [
+          "facebook"
+        ],
+        "outbound": "👤 Facebook"
+      },
+      {
+        "geosite": [
+          "amazon"
+        ],
+        "outbound": "🛍️ Amazon"
+      },
+      {
+        "geosite": [
+          "apple-cn",
+          "apple"
+        ],
+        "outbound": "🍎 Apple"
+      },
+      {
+        "geosite": [
+          "microsoft"
+        ],
+        "outbound": "🧩 Microsoft"
+      },
+      {
+        "geosite": [
+          "category-games"
+        ],
+        "outbound": "🎮 Game"
+      },
+      {
+        "geosite": [
+          "bilibili"
+        ],
+        "outbound": "📺 Bilibili"
+      },
+      {
+        "geosite": [
+          "tiktok",
+          "netflix",
+          "hbo",
+          "disney",
+          "primevideo"
+        ],
+        "geoip": [
+          "netflix"
+        ],
+        "outbound": "🎬 MediaVideo"
+      },
+      {
+        "geosite": [
+          "geolocation-!cn"
+        ],
+        "outbound": "🌏 !cn"
+      },
+      {
+        "geosite": [
+          "cn"
+        ],
+        "geoip": [
+          "private",
+          "cn"
+        ],
+        "outbound": "🌏 cn"
+      },
+      {
+        "geosite": [
+          "category-ads-all"
+        ],
+        "outbound": "🛑 AdBlock"
+      }
+    ],
+    "auto_detect_interface": true,
+    "final": "select"
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true,
+      "path": "cache.db"
+    }
+  }
+}
