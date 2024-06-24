@@ -52,7 +52,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "gama.ir",
+            "address": "nodejs.org",
             "port": 2053,
             "users": [
               {
