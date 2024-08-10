@@ -1,6 +1,6 @@
 [
     {
-        "remarks": "IRANCPI_FRAGMENT - Domain_1 : 443",
+        "remarks": "Irancpi_Fragment_Domain_1 : 443",
         "log": {
             "loglevel": "warning"
         },
@@ -84,7 +84,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "bpb241.samanidempire.org",
+                            "address": "bpbfrag1.cpiforpersia.uk",
                             "port": 443,
                             "users": [
                                 {
@@ -113,13 +113,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BpB241.SaMAnIdEMpIRE.OrG"
+                        "serverName": "bPbfRag1.cPiforpeRsia.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpb241.SaMAniDemPirE.orG"
+                            "Host": "bpBfrAG1.cpIFOrpErSIA.UK"
                         },
-                        "path": "/byNrltgrN1CP4cRI?ed=2560"
+                        "path": "/nY9NCiWsMbd950bZ?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -338,13 +338,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpB241.samanIDEmpiRE.orG"
+                        "serverName": "BPBFRAg1.cpiforpErsiA.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpB241.samanIdemPIRe.ORG"
+                            "Host": "BPBFRAG1.CpiForpERSia.uK"
                         },
-                        "path": "/PVohzPJk0oA3VtHp?ed=2560"
+                        "path": "/J0VjDO73YO4AspV5?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -534,7 +534,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "188.114.97.0",
+                            "address": "172.67.174.69",
                             "port": 443,
                             "users": [
                                 {
@@ -563,13 +563,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Bpb241.SaMAnIdemPIre.ORg"
+                        "serverName": "bPBfrAG1.CPIforpErsiA.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPB241.sAMAnIDEmpIrE.orG"
+                            "Host": "BPBFrag1.CPifoRPerSIa.uk"
                         },
-                        "path": "/MjFgTyPM0XeMjGgl?ed=2560"
+                        "path": "/5jPY5HF11EoUMHdw?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -759,7 +759,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "188.114.96.0",
+                            "address": "104.21.96.73",
                             "port": 443,
                             "users": [
                                 {
@@ -788,13 +788,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPb241.samaNidemPirE.Org"
+                        "serverName": "BpBFRaG1.CPiforPersiA.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPB241.SaManidEmPIrE.oRG"
+                            "Host": "bpbFRaG1.cpIfoRpERSia.uK"
                         },
-                        "path": "/unn8JQSbVvo7sMDu?ed=2560"
+                        "path": "/nT80UQe3NX6wLH9X?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -984,7 +984,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2a06:98c1:3120::]",
+                            "address": "[2606:4700:3035::ac43:ae45]",
                             "port": 443,
                             "users": [
                                 {
@@ -1013,13 +1013,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPb241.SAManidEmPIRE.oRG"
+                        "serverName": "bPbfRaG1.cpIFoRPERSia.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Bpb241.SAMANIdEmPIrE.OrG"
+                            "Host": "bpBfrAg1.CPIfORPERSIA.uK"
                         },
-                        "path": "/pJ0ksCSICIX0cO3a?ed=2560"
+                        "path": "/FHQpDExCJodcYdLv?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -1209,7 +1209,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2a06:98c1:3121::]",
+                            "address": "[2606:4700:3036::6815:6049]",
                             "port": 443,
                             "users": [
                                 {
@@ -1238,13 +1238,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Bpb241.SaMANIDEmpIRe.oRG"
+                        "serverName": "bpbfrag1.cPIfOrPersIa.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpB241.saManIDEMpiRe.oRG"
+                            "Host": "bPbfRAG1.CPiForPErSia.uK"
                         },
-                        "path": "/MyRQlhNAIZiVt6DN?ed=2560"
+                        "path": "/acrOrjo9MR0RHOQ1?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -1463,13 +1463,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPB241.SamAnIdeMpiRE.orG"
+                        "serverName": "BpBFraG1.cpIFOrPErSia.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPB241.sAMANiDemPirE.Org"
+                            "Host": "BpBFrAG1.CpIforPeRsIA.uk"
                         },
-                        "path": "/e84ZkoRF14djpvWG?ed=2560"
+                        "path": "/aV2cYfuhx9ZWLAoH?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -1688,13 +1688,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpb241.samaNIDeMpIrE.orG"
+                        "serverName": "bpBFrAG1.CpifoRPERsIa.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpb241.SAMANiDeMpirE.OrG"
+                            "Host": "BPBfRAG1.CPIFoRpERsIA.Uk"
                         },
-                        "path": "/UdxnrjwwDqMHNVCL?ed=2560"
+                        "path": "/g121P4SaShaWrSFF?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -1913,13 +1913,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BpB241.samAnidEmpirE.ORG"
+                        "serverName": "bPbFrAG1.CpiFOrpeRsiA.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPB241.SAMAnIDEMPIRE.ORG"
+                            "Host": "bPbfRaG1.CPIForPersIa.uk"
                         },
-                        "path": "/QWx7d7TxEtW88RR1?ed=2560"
+                        "path": "/UeYruyqwGjMx0GU0?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -2138,13 +2138,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPb241.sAmANiDemPIrE.OrG"
+                        "serverName": "bpbFraG1.CpifoRPerSIa.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPB241.SAmANIdeMPiRE.OrG"
+                            "Host": "bpBFrag1.cpIfOrPeRSiA.uk"
                         },
-                        "path": "/T1jNQabyH3YMjpso?ed=2560"
+                        "path": "/5v4TuM0QHlQV6vIS?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -2363,13 +2363,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BpB241.SAManiDEMpiRe.ORG"
+                        "serverName": "BpbfraG1.cpifoRPErsIA.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPB241.SamAnIDeMPIrE.ORG"
+                            "Host": "BpbFrag1.cPiForpErsIA.uK"
                         },
-                        "path": "/fcIE7JtyhtgfDwsf?ed=2560"
+                        "path": "/P9Nigbxjhh3bq1IX?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -2588,13 +2588,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpB241.SAmANIDEmPIre.orG"
+                        "serverName": "BPBfrAG1.CpiFOrpeRSia.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPb241.SAmanidEmPIrE.orG"
+                            "Host": "bPbfRag1.CpIfOrpErSIa.uk"
                         },
-                        "path": "/m76xcbd1MWBW3nuc?ed=2560"
+                        "path": "/f1kbVM6zg0n3BQKN?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -2813,13 +2813,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPB241.samAniDeMpIre.Org"
+                        "serverName": "BpbFRag1.cPIfoRPersia.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPb241.samanIDEmpirE.OrG"
+                            "Host": "bPBFRaG1.cpIForpErsIA.uk"
                         },
-                        "path": "/9448jLaSHG8Limq1?ed=2560"
+                        "path": "/qY1eWxIXSJZaieIo?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -3009,7 +3009,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "bpb241.samanidempire.org",
+                            "address": "bpbfrag1.cpiforpersia.uk",
                             "port": 8443,
                             "users": [
                                 {
@@ -3038,13 +3038,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpb241.saMAniDemPire.org"
+                        "serverName": "BpBFRag1.cPiFoRPErSia.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BpB241.SAMAnIDEMPire.OrG"
+                            "Host": "BPBfRAG1.CPifOrpErsia.Uk"
                         },
-                        "path": "/EYx5iW8CxQh9K9mO?ed=2560"
+                        "path": "/ZuxPMhbOqVt814F0?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -3263,13 +3263,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPB241.sAMaNIDemPire.ORg"
+                        "serverName": "BpbFRAG1.CPiFOrpERsia.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPB241.SAmAnideMpIRE.orG"
+                            "Host": "bPBFRag1.CPIFORpersIa.uk"
                         },
-                        "path": "/aS8EZ3dizDQpXPZM?ed=2560"
+                        "path": "/QalRayIuCREX1mv1?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -3459,7 +3459,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "188.114.97.0",
+                            "address": "172.67.174.69",
                             "port": 8443,
                             "users": [
                                 {
@@ -3488,13 +3488,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPb241.saMANIDEMPirE.org"
+                        "serverName": "BpBfRaG1.CPifOrPeRsIa.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BpB241.sAMANidEmPire.OrG"
+                            "Host": "bpBFraG1.cPIfOrperSIa.uK"
                         },
-                        "path": "/77jjQLQ6JZVxUhuN?ed=2560"
+                        "path": "/Kh3544IjSrxZB1Rw?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -3684,7 +3684,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "188.114.96.0",
+                            "address": "104.21.96.73",
                             "port": 8443,
                             "users": [
                                 {
@@ -3713,13 +3713,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Bpb241.SaMAniDEMpIre.ORg"
+                        "serverName": "bpbFRAg1.cpIFOrPERSIA.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPB241.saManiDeMPIrE.ORG"
+                            "Host": "BpbFRaG1.CPIFoRPErsiA.UK"
                         },
-                        "path": "/T6lGAnfXomHeLBYG?ed=2560"
+                        "path": "/b4thvKQeXXQsgOZc?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -3909,7 +3909,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2a06:98c1:3120::]",
+                            "address": "[2606:4700:3035::ac43:ae45]",
                             "port": 8443,
                             "users": [
                                 {
@@ -3938,13 +3938,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPb241.SaMAnidempIre.org"
+                        "serverName": "BPbFRAg1.cpiforpErsIa.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BpB241.sAmanIDemPire.oRG"
+                            "Host": "bpbFrAG1.CpiFOrPersiA.uK"
                         },
-                        "path": "/nLpZPaIuzNdRqLrA?ed=2560"
+                        "path": "/szzdbgdNwuqVNo9p?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -4134,7 +4134,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2a06:98c1:3121::]",
+                            "address": "[2606:4700:3036::6815:6049]",
                             "port": 8443,
                             "users": [
                                 {
@@ -4163,13 +4163,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPB241.SamaNidEMPiRe.oRg"
+                        "serverName": "BpbFrAg1.CpIfOrPeRSIa.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPB241.samAniDEmpIRE.org"
+                            "Host": "BpBFRag1.cpiforPeRSIA.uK"
                         },
-                        "path": "/Ja39mpb3Ks1Y2fx5?ed=2560"
+                        "path": "/gEoHzXvXCPDgINP6?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -4388,13 +4388,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpb241.SAMAnIDemPIrE.oRG"
+                        "serverName": "bpBfrag1.CpIFOrPERsiA.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BpB241.sAmaniDEMpire.ORG"
+                            "Host": "bPBFRAG1.CpifoRpeRSia.Uk"
                         },
-                        "path": "/F9nHSPRTlC17up3O?ed=2560"
+                        "path": "/u9mY5Y8lTvoLU4vy?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -4613,13 +4613,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPb241.SAmANIDEmpIre.Org"
+                        "serverName": "bPBFraG1.CPiFoRpErsIA.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Bpb241.sAManiDEMPIRE.oRg"
+                            "Host": "bPBfrag1.cpIfoRperSia.Uk"
                         },
-                        "path": "/EFXEL4D1KyEmS0MO?ed=2560"
+                        "path": "/GJiav1UXwrWRFRfT?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -4838,13 +4838,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPB241.sAmANidemPiRE.OrG"
+                        "serverName": "BPbfRAg1.cpiFoRPErSIA.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPB241.SAmANIdemPiRE.Org"
+                            "Host": "bpbfRaG1.cpifORPERSia.Uk"
                         },
-                        "path": "/mzwuydh9uO0Q4mjk?ed=2560"
+                        "path": "/5XOuOU7ZKzBeKRnx?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -5063,13 +5063,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPb241.sAmAnIdEmpIRe.ORg"
+                        "serverName": "BPBFRAG1.cpIfORperSIA.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPb241.samAniDEMPiRE.oRG"
+                            "Host": "bpBfRaG1.CpIfORPERSIa.uK"
                         },
-                        "path": "/lQbR5gliKQax5SrL?ed=2560"
+                        "path": "/nhRZxipromOfyhFs?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -5288,13 +5288,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Bpb241.samaniDEMPire.Org"
+                        "serverName": "bpBFRag1.cpIfOrPerSIa.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPb241.SAMAniDempIrE.OrG"
+                            "Host": "BPbFRaG1.CPifORPErSia.uK"
                         },
-                        "path": "/TDbkHSLBWHUyau7G?ed=2560"
+                        "path": "/LlnSoWcmxWUpsXz0?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -5513,13 +5513,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpb241.SAMaNIdemPIre.Org"
+                        "serverName": "BpBFraG1.cpiforperSIa.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPb241.sAMaNIdempIRE.oRG"
+                            "Host": "bpbfRag1.cpiForPeRSia.uk"
                         },
-                        "path": "/gVMCsyT9fByiQPmW?ed=2560"
+                        "path": "/k8BgDNLa3aY5Qcs6?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -5738,13 +5738,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpB241.SaMAniDemPIRE.ORG"
+                        "serverName": "BpBFrag1.cPIForPERsIA.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPb241.sAMANiDempIrE.oRG"
+                            "Host": "BPBFraG1.cPIfOrPeRSIa.Uk"
                         },
-                        "path": "/WcC89BmhhNb91ixp?ed=2560"
+                        "path": "/nBW4rxuTJ2Vxm07n?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -5934,7 +5934,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "bpb241.samanidempire.org",
+                            "address": "bpbfrag1.cpiforpersia.uk",
                             "port": 2053,
                             "users": [
                                 {
@@ -5963,13 +5963,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPB241.samaNiDEmpIRE.ORg"
+                        "serverName": "bpbFRAG1.CpiForPersIA.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPb241.SamANIDEMPire.OrG"
+                            "Host": "BPBfraG1.cpIFOrpersIA.UK"
                         },
-                        "path": "/ozOm1WZ9QKjlXTYW?ed=2560"
+                        "path": "/s3stKCVwxlDsa1dx?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -6188,13 +6188,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPb241.sAmanidEMpIRe.OrG"
+                        "serverName": "bpBfRaG1.CPifoRpERsiA.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPB241.saManidemPIRe.oRg"
+                            "Host": "BPbfrag1.CPIFORpersiA.uk"
                         },
-                        "path": "/ouFKvjKvFQu6T30x?ed=2560"
+                        "path": "/qZNN0lfMCpWbtjs2?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -6384,7 +6384,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "188.114.97.0",
+                            "address": "172.67.174.69",
                             "port": 2053,
                             "users": [
                                 {
@@ -6413,13 +6413,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpb241.samaNidemPiRE.Org"
+                        "serverName": "BpBFRAg1.cPifOrPeRSiA.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BpB241.saManIDeMPire.oRg"
+                            "Host": "BPbFRAg1.cpIFOrpersIa.UK"
                         },
-                        "path": "/gMxx9Q3z1eW8dlIN?ed=2560"
+                        "path": "/P9MC197tEDSNEmAF?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -6609,7 +6609,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "188.114.96.0",
+                            "address": "104.21.96.73",
                             "port": 2053,
                             "users": [
                                 {
@@ -6638,13 +6638,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BpB241.SAMaNiDemPirE.OrG"
+                        "serverName": "bPBfRag1.CPiforpErSia.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Bpb241.saMaNiDempIRE.oRg"
+                            "Host": "bPBfRAG1.CpIfOrpersiA.UK"
                         },
-                        "path": "/Zl4liA76nb6wMWEH?ed=2560"
+                        "path": "/N4tfquiEAQBX0dFY?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -6834,7 +6834,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2a06:98c1:3120::]",
+                            "address": "[2606:4700:3035::ac43:ae45]",
                             "port": 2053,
                             "users": [
                                 {
@@ -6863,13 +6863,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpB241.samANIDemPirE.OrG"
+                        "serverName": "bPBFRaG1.CpiFORpERsia.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpB241.samANiDeMpIRe.oRg"
+                            "Host": "bpBfRAG1.cPifORPErSiA.Uk"
                         },
-                        "path": "/cXhAhYaZRO4z9DSR?ed=2560"
+                        "path": "/8jDOUDxbfGmWz0G3?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -7059,7 +7059,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2a06:98c1:3121::]",
+                            "address": "[2606:4700:3036::6815:6049]",
                             "port": 2053,
                             "users": [
                                 {
@@ -7088,13 +7088,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpB241.sAmaniDEmpire.OrG"
+                        "serverName": "bPbFrAg1.CpIforPersiA.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpB241.saMAnIdEMPiRe.org"
+                            "Host": "BpbfrAg1.CpiforPersia.Uk"
                         },
-                        "path": "/uoWAPRNYkbA3la6M?ed=2560"
+                        "path": "/O3oUcpwpe18x4EHY?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -7313,13 +7313,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Bpb241.SAmanIdEmpIre.OrG"
+                        "serverName": "bPbFRag1.cpIforPeRsIa.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpb241.SamaNIDEMPIrE.org"
+                            "Host": "BpbfRag1.cpIForperSIa.uK"
                         },
-                        "path": "/GqwhtOssEQzGBl7e?ed=2560"
+                        "path": "/lXQer6oYmYUBcmgL?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -7538,13 +7538,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPB241.sAmaNiDEMpire.ORG"
+                        "serverName": "bpbFRAG1.CPiForpERsIa.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpb241.SaMaNIdeMPirE.oRG"
+                            "Host": "BPbfRaG1.cpIFOrpERSiA.UK"
                         },
-                        "path": "/RqjMsqjQnqe77Shd?ed=2560"
+                        "path": "/nt5J0ctFOlGPQE8f?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -7763,13 +7763,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPB241.SaMAniDempiRe.OrG"
+                        "serverName": "bPBfraG1.CpiFoRPerSIA.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Bpb241.sAmaNIdEMpIRe.orG"
+                            "Host": "BpbFrAG1.CPiForPerSia.UK"
                         },
-                        "path": "/zD1HwensyDPHHYXU?ed=2560"
+                        "path": "/U9BpkyHOOG4yd5zU?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -7988,13 +7988,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPb241.SamaNIDempiRE.OrG"
+                        "serverName": "BpBFRaG1.cPifOrpeRsia.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BpB241.SAmaNidempiRE.orG"
+                            "Host": "BpbfRAg1.cpIfoRpErSia.Uk"
                         },
-                        "path": "/HZ4hxflYClwza5lz?ed=2560"
+                        "path": "/ad00wA3asens66lY?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -8213,13 +8213,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BpB241.SamaNIdEmpIrE.oRg"
+                        "serverName": "BPBFRAg1.CPIfORpeRsia.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Bpb241.samAnIDeMpirE.ORg"
+                            "Host": "BpBfrag1.cpIForPERSiA.Uk"
                         },
-                        "path": "/TuVoEpoQQEbu8cxu?ed=2560"
+                        "path": "/mzDSi85xOZUq9zQe?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -8438,13 +8438,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPB241.SaMAnIDEmpire.OrG"
+                        "serverName": "BpBFrag1.cPifORPeRsia.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpB241.sAMAnIdEMPIRE.ORg"
+                            "Host": "bPBfRAG1.cPIFoRpeRSIA.uk"
                         },
-                        "path": "/LDgHsKMBHSwdJmY4?ed=2560"
+                        "path": "/s9HTxivDiBf6BeHQ?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -8663,13 +8663,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPB241.SAmaNideMPirE.ORG"
+                        "serverName": "BpbFraG1.cPifoRpERSiA.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPB241.sAMaNIdEmpirE.Org"
+                            "Host": "BpBfraG1.cPifOrpeRSIa.uK"
                         },
-                        "path": "/pbvCSwzboWH2J6PU?ed=2560"
+                        "path": "/VOxgzl2dZTrDUW7c?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -8859,7 +8859,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "bpb241.samanidempire.org",
+                            "address": "bpbfrag1.cpiforpersia.uk",
                             "port": 2083,
                             "users": [
                                 {
@@ -8888,13 +8888,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BpB241.saMaNIDEmpIRE.ORg"
+                        "serverName": "bPbfrag1.cPIFoRPersiA.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPB241.SamAnIdeMPirE.ORg"
+                            "Host": "BPBfrAg1.cpifORPErsIa.uk"
                         },
-                        "path": "/vDLrrYwoaFSvxmDd?ed=2560"
+                        "path": "/UPS99zCDEtqhfsmY?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -9113,13 +9113,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPb241.SAmanIdempirE.oRG"
+                        "serverName": "bpBfraG1.cpIFoRpErsIa.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPB241.SAManIDeMpirE.ORG"
+                            "Host": "bpbfRaG1.CPiFoRpERsIa.uK"
                         },
-                        "path": "/82YXZhz0UoAuKfcG?ed=2560"
+                        "path": "/fCcHRD6CYGKlS1Oj?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -9309,7 +9309,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "188.114.97.0",
+                            "address": "172.67.174.69",
                             "port": 2083,
                             "users": [
                                 {
@@ -9338,13 +9338,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Bpb241.SAMaNideMpiRE.oRG"
+                        "serverName": "bPbFrag1.cpIfoRPERSIA.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Bpb241.samaniDempIrE.OrG"
+                            "Host": "bpbFrAG1.CPIfoRpersIA.uk"
                         },
-                        "path": "/LCjPoWEc4B44F0CG?ed=2560"
+                        "path": "/HN9ghrWh6tmvopth?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -9534,7 +9534,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "188.114.96.0",
+                            "address": "104.21.96.73",
                             "port": 2083,
                             "users": [
                                 {
@@ -9563,13 +9563,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPb241.SamAnideMPIrE.OrG"
+                        "serverName": "BpBFRaG1.CpiFORpeRsia.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpB241.sAMANidemPiRe.ORg"
+                            "Host": "BpBfRAg1.CPiFOrpERsIA.uK"
                         },
-                        "path": "/4zEEL7r5DButguQ4?ed=2560"
+                        "path": "/rxE7NlN7tQgGPWR5?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -9759,7 +9759,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2a06:98c1:3120::]",
+                            "address": "[2606:4700:3035::ac43:ae45]",
                             "port": 2083,
                             "users": [
                                 {
@@ -9788,13 +9788,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpB241.saMAniDeMpIRe.Org"
+                        "serverName": "bPBFRAg1.cPIfOrpeRsIa.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPB241.SaMaNideMpIRE.OrG"
+                            "Host": "BpBFrAG1.cPIFOrpersIa.uK"
                         },
-                        "path": "/yvMLuH1ZEVgw523R?ed=2560"
+                        "path": "/EOSDMAplCRVuqLT7?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -9984,7 +9984,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2a06:98c1:3121::]",
+                            "address": "[2606:4700:3036::6815:6049]",
                             "port": 2083,
                             "users": [
                                 {
@@ -10013,13 +10013,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPb241.saMANiDEMpire.oRg"
+                        "serverName": "bPBFRAg1.CPifORPERSiA.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPb241.SaManIDempire.orG"
+                            "Host": "BPbFRaG1.cpIFoRPERSIa.uK"
                         },
-                        "path": "/tUYOiRukgWUSLZDx?ed=2560"
+                        "path": "/TjioTu05FB7nslAa?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -10238,13 +10238,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpb241.SAMaNIDEmPIre.OrG"
+                        "serverName": "bPBFrag1.CpiFORpeRSIA.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpB241.SAmanideMPiRE.Org"
+                            "Host": "BpBfRaG1.CpIfoRPErSIa.UK"
                         },
-                        "path": "/4wqjClkcXrVB1Kkd?ed=2560"
+                        "path": "/pzGFYTOgTbwp25mK?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -10463,13 +10463,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPB241.sAManidEMpIRe.org"
+                        "serverName": "BPBFraG1.cpiFOrpeRsIA.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPb241.SAMaNiDEmpIRE.ORG"
+                            "Host": "bpbfRaG1.cpiForpErSIA.uK"
                         },
-                        "path": "/mPPjMm5ZhhSZQG5V?ed=2560"
+                        "path": "/PbUyqxwlsg2Xgy50?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -10688,13 +10688,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPB241.SAmaNiDeMPiRe.ORG"
+                        "serverName": "bpBFRAG1.cPIfOrpeRsia.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpB241.samaNIDEmPIRE.org"
+                            "Host": "BpBfRaG1.cpIFOrPErsiA.UK"
                         },
-                        "path": "/Ps1PcIxvfHhzm0Gn?ed=2560"
+                        "path": "/fojgu6o5lR9wKjkE?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -10913,13 +10913,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPB241.SaMAnIdEMpire.oRg"
+                        "serverName": "BPbfRag1.CpifORPeRsiA.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPB241.SAmANIdEMpIrE.org"
+                            "Host": "bpBfrAG1.CPIFORPeRsIA.uK"
                         },
-                        "path": "/G9Dx6UbdCNASrzaR?ed=2560"
+                        "path": "/jmY5OqAk6A9hWnfu?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -11138,13 +11138,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPB241.sAMaNiDemPIRe.oRG"
+                        "serverName": "bPbfRAg1.CpIFoRperSIA.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPb241.samanIdEmpIRe.orG"
+                            "Host": "BPbFRAG1.cpifOrPErSia.uk"
                         },
-                        "path": "/8POkfJ5HbsP0dwRr?ed=2560"
+                        "path": "/b40M7Y4WpSVPWOUb?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -11363,13 +11363,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPB241.SaMaNIDEmPiRe.orG"
+                        "serverName": "bPBFRag1.cPIFOrPERsIa.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpb241.samANIdEmPIRe.ORg"
+                            "Host": "BPBfRaG1.cpiForpeRsIA.Uk"
                         },
-                        "path": "/cZbzwONiBttOgmCt?ed=2560"
+                        "path": "/jOoAmJoiJjI7SKQH?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -11588,13 +11588,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPb241.samANidEmpiRe.OrG"
+                        "serverName": "bpbfRAG1.cPIfoRPERSia.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpB241.SAmANiDeMPirE.oRg"
+                            "Host": "bpbFrAg1.CpiFOrpERSia.uk"
                         },
-                        "path": "/iEXZg7j5x9DXZLZ4?ed=2560"
+                        "path": "/ddWp21PxyWCN9mub?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -11784,7 +11784,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "bpb241.samanidempire.org",
+                            "address": "bpbfrag1.cpiforpersia.uk",
                             "port": 2087,
                             "users": [
                                 {
@@ -11813,13 +11813,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPB241.SamAniDEMPiRE.OrG"
+                        "serverName": "BPBFRaG1.CpIfORPERSiA.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPB241.sAManiDeMPire.ORg"
+                            "Host": "BPBFRAg1.cPiforPeRsIa.UK"
                         },
-                        "path": "/GlE7a9vewFw7GpOH?ed=2560"
+                        "path": "/WIyqDk19YrMoJHXf?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -12038,13 +12038,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Bpb241.SaMAnidEMpIrE.OrG"
+                        "serverName": "BPbFRAG1.cPiFORPErSiA.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPb241.sAManIdEMpIRE.ORG"
+                            "Host": "bpBfRaG1.cPiFOrPERsiA.uK"
                         },
-                        "path": "/QTwnZrMD9lgYCTyO?ed=2560"
+                        "path": "/GlTgioEh7pLAlfE9?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -12234,7 +12234,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "188.114.97.0",
+                            "address": "172.67.174.69",
                             "port": 2087,
                             "users": [
                                 {
@@ -12263,13 +12263,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpb241.SamanIdEMPIre.oRg"
+                        "serverName": "BPBFRag1.cpIForPErsIA.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPb241.SAManIDeMpiRe.orG"
+                            "Host": "BpbfRAg1.cpiFORpERsIa.uk"
                         },
-                        "path": "/nq7o2fzXVJq29KBI?ed=2560"
+                        "path": "/HaoYXQicUmPncF2c?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -12459,7 +12459,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "188.114.96.0",
+                            "address": "104.21.96.73",
                             "port": 2087,
                             "users": [
                                 {
@@ -12488,13 +12488,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Bpb241.SAMAniDeMPiRE.OrG"
+                        "serverName": "bPbfRag1.CpIfoRpERSIA.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPB241.saManIDEmpIRe.oRg"
+                            "Host": "bPbfRAG1.CpIfOrPERSIA.uk"
                         },
-                        "path": "/ebeWKRaSAfauNe4P?ed=2560"
+                        "path": "/GaLfglMCp67vU3JL?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -12684,7 +12684,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2a06:98c1:3120::]",
+                            "address": "[2606:4700:3035::ac43:ae45]",
                             "port": 2087,
                             "users": [
                                 {
@@ -12713,13 +12713,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPB241.saMAnidEMpIre.OrG"
+                        "serverName": "bpBFraG1.cpiFOrpeRSia.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Bpb241.SAmaNIDeMpirE.oRG"
+                            "Host": "BpBfrAG1.cpiFORPErSiA.uK"
                         },
-                        "path": "/I4j74qvK5HW8aSGN?ed=2560"
+                        "path": "/3Mzg8QH3tWOqXENZ?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -12909,7 +12909,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2a06:98c1:3121::]",
+                            "address": "[2606:4700:3036::6815:6049]",
                             "port": 2087,
                             "users": [
                                 {
@@ -12938,13 +12938,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPB241.sAmAnIdeMPirE.ORG"
+                        "serverName": "bpbFRaG1.CpIforPERsiA.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPB241.SAmANidEMPiRE.oRg"
+                            "Host": "BPBfrAG1.cpiFoRPeRSIA.Uk"
                         },
-                        "path": "/sFIqIcWLJD5SBaOd?ed=2560"
+                        "path": "/rx5GD3vH5Pq5ydsx?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -13163,13 +13163,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Bpb241.saMaNIdEmpIRE.oRg"
+                        "serverName": "bPbFRaG1.CPiforPERSIa.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpb241.SAmaniDeMpirE.ORG"
+                            "Host": "bpbFrAG1.cpIfOrPersia.uk"
                         },
-                        "path": "/9GyaT6Okd93tHT6K?ed=2560"
+                        "path": "/NAh6I36axa0CLOaW?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -13388,13 +13388,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPb241.sAmAnIdemPirE.oRG"
+                        "serverName": "bpBfrAG1.cPIFoRpERSia.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BpB241.SaMANidEMPirE.Org"
+                            "Host": "BpbfrAg1.cPifOrpeRsIA.UK"
                         },
-                        "path": "/lE3SkJmnqJaK72TO?ed=2560"
+                        "path": "/42UAk4lW3xV6gJYt?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -13613,13 +13613,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpB241.sAmanidEmpire.org"
+                        "serverName": "bPbFraG1.CPiforpeRSia.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPB241.SAmaniDEMpire.oRG"
+                            "Host": "bPBfRAG1.CpIfOrPeRsiA.uK"
                         },
-                        "path": "/9JtL5U0KuQZXwlb5?ed=2560"
+                        "path": "/xBnZayebg1sYvazP?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -13838,13 +13838,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpb241.SaManiDemPire.Org"
+                        "serverName": "bpbFRAg1.CPiforpErSIa.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Bpb241.sAMAniDEmpIRE.oRG"
+                            "Host": "bPbfraG1.CpIfOrpErsIa.uk"
                         },
-                        "path": "/ZYvFqYK2sIKrSAL1?ed=2560"
+                        "path": "/RlsnhwoRQYgWecVW?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -14063,13 +14063,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpB241.sAMaNIDempirE.ORG"
+                        "serverName": "BpbFrag1.CPiforpeRsIA.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BpB241.SaMaNIdEMpire.ORG"
+                            "Host": "BPbFRag1.cpiforPerSIa.uK"
                         },
-                        "path": "/Aflkc66YXVtmbinH?ed=2560"
+                        "path": "/VadU3hsWRQHpd2U0?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -14288,13 +14288,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPb241.sAmaNIdempiRe.oRg"
+                        "serverName": "bpBfrAG1.CPIFOrpeRsia.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Bpb241.SAMANidEmpIrE.Org"
+                            "Host": "BpbfrAg1.cPIfORPErsIa.uk"
                         },
-                        "path": "/t8ARC7FYb7zJeVF2?ed=2560"
+                        "path": "/OUAcflro1rF5lMtm?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -14513,13 +14513,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPB241.SAmAnIdeMpirE.ORg"
+                        "serverName": "bpBFRAG1.cpIfOrPERsIA.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPB241.SaMaNIdEmpire.orG"
+                            "Host": "BpBFRAg1.cPIFOrPERSIA.uk"
                         },
-                        "path": "/Tbc1FTFCWD1sgSyY?ed=2560"
+                        "path": "/DbPaYgNi94WZBpnR?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -14709,7 +14709,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "bpb241.samanidempire.org",
+                            "address": "bpbfrag1.cpiforpersia.uk",
                             "port": 2096,
                             "users": [
                                 {
@@ -14738,13 +14738,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPb241.SAmanIdeMPIRE.Org"
+                        "serverName": "BPbFrAg1.CpIFOrPERSIa.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPb241.SaMANIDEMPire.orG"
+                            "Host": "Bpbfrag1.cpIforPerSia.Uk"
                         },
-                        "path": "/gvfR389VVE9wrdYj?ed=2560"
+                        "path": "/siHjIZoZW5eevdhr?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -14963,13 +14963,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpb241.SamAnIdeMpiRe.ORG"
+                        "serverName": "bpBfRag1.cpIfORPerSia.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPb241.SAmanIdEmPIRe.ORg"
+                            "Host": "BpbFrAG1.CPifORPERSIA.UK"
                         },
-                        "path": "/IxMVAPz8Jr4ROO4c?ed=2560"
+                        "path": "/T95MbgHmXRJfGDHq?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -15159,7 +15159,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "188.114.97.0",
+                            "address": "172.67.174.69",
                             "port": 2096,
                             "users": [
                                 {
@@ -15188,13 +15188,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPB241.SamANIdeMPIRE.OrG"
+                        "serverName": "BpBFrAG1.CpiforPeRsIa.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPb241.SaMaNIdEmpIrE.ORg"
+                            "Host": "BPBFrag1.cpifORPeRSia.uK"
                         },
-                        "path": "/cKxd6kDTkr2AXSnJ?ed=2560"
+                        "path": "/hURZ1vF7HNsi0LR0?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -15384,7 +15384,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "188.114.96.0",
+                            "address": "104.21.96.73",
                             "port": 2096,
                             "users": [
                                 {
@@ -15413,13 +15413,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpb241.SamAnIdeMpIre.Org"
+                        "serverName": "BPBFraG1.cpifOrPeRsIa.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPb241.saMANIDEMPIRE.ORg"
+                            "Host": "BpBFRag1.CpIfORPERsiA.uk"
                         },
-                        "path": "/LG9Tg4Z1R0PGUWVH?ed=2560"
+                        "path": "/Fn7lAMhn0EaTe45b?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -15609,7 +15609,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2a06:98c1:3120::]",
+                            "address": "[2606:4700:3035::ac43:ae45]",
                             "port": 2096,
                             "users": [
                                 {
@@ -15638,13 +15638,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BpB241.sAmanIDEmpIre.org"
+                        "serverName": "BPBFRag1.CPIFORpeRsiA.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPb241.sAManIdeMpIRE.OrG"
+                            "Host": "BpBfRAG1.CPIForPersIa.Uk"
                         },
-                        "path": "/RetJYWppM01ifyFH?ed=2560"
+                        "path": "/qG41ZLz3cNXjM5wB?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -15834,7 +15834,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2a06:98c1:3121::]",
+                            "address": "[2606:4700:3036::6815:6049]",
                             "port": 2096,
                             "users": [
                                 {
@@ -15863,13 +15863,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Bpb241.SAManIDEMpIrE.Org"
+                        "serverName": "BPBFrag1.CPIfoRPERSiA.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Bpb241.SAmANIdempIre.oRg"
+                            "Host": "BpBfRag1.CPifOrpErSiA.uk"
                         },
-                        "path": "/W9Q2uCRb0KvlmnKq?ed=2560"
+                        "path": "/gI718dOo3WUqRDBa?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -16088,13 +16088,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Bpb241.sAmanidEMPirE.oRg"
+                        "serverName": "BPBfrAg1.CPiFOrPERsIa.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpb241.sAManidempiRE.Org"
+                            "Host": "bPbfrag1.cpIFOrPERSIA.uK"
                         },
-                        "path": "/NWEu5OwlcJUHfDiT?ed=2560"
+                        "path": "/84hGVGk3ijluINcm?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -16313,13 +16313,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPB241.sAManiDeMpirE.orG"
+                        "serverName": "bPbFRag1.CpIFORPERSia.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPb241.SAmANIDempiRe.Org"
+                            "Host": "BpBfRAg1.CpIFOrPErsIA.uk"
                         },
-                        "path": "/Eg2J7DPYEouBIDaI?ed=2560"
+                        "path": "/mEjolIIztVai0BXn?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -16538,13 +16538,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Bpb241.samanidempire.oRg"
+                        "serverName": "bpbfrAG1.CpiFORpeRSia.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPb241.SAMAnIdEMpIrE.OrG"
+                            "Host": "bPBFRaG1.CPifOrPERSIa.Uk"
                         },
-                        "path": "/WixhYr1x6xma9LqV?ed=2560"
+                        "path": "/b0Q0bJVEeGlWdTyJ?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -16763,13 +16763,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPb241.sAMaNidEmPire.orG"
+                        "serverName": "bpBFRaG1.CPiFORpErsIa.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpB241.SAmanIdEMPiRe.oRG"
+                            "Host": "bpbfrAg1.CPifOrpERSIa.uk"
                         },
-                        "path": "/yNNqt0xIl3en3wZR?ed=2560"
+                        "path": "/e1RepSogNaY1Vg3O?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -16988,13 +16988,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPb241.sAMAnIdEmpiRE.Org"
+                        "serverName": "BPBFRag1.cpIfOrpERsia.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPB241.SamAnIDeMpiRe.Org"
+                            "Host": "bPbfrag1.cPIforPersIA.Uk"
                         },
-                        "path": "/lnJlfmMe9iYwM49I?ed=2560"
+                        "path": "/KgefUf1CDWH2sqY6?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -17213,13 +17213,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpb241.SamaNiDeMpiRe.oRG"
+                        "serverName": "bPBFRag1.cpIFORpErSIa.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPB241.SAmAniDeMpire.org"
+                            "Host": "BPBfraG1.cpifoRpersia.uk"
                         },
-                        "path": "/ufr5hb47Q0q1DnmO?ed=2560"
+                        "path": "/0T3HIMiuoyj6ILQ7?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -17438,13 +17438,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPB241.SAmanIdEmpiRe.oRG"
+                        "serverName": "BpbfRag1.cpIfoRPErSIA.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpB241.SamaNiDeMpIRe.oRg"
+                            "Host": "BPBFRAg1.cpiForpErSia.uK"
                         },
-                        "path": "/YktlAf6v9iL5plkQ?ed=2560"
+                        "path": "/Un1YChLDOLqbsd9d?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -17634,7 +17634,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "bpb241.samanidempire.org",
+                            "address": "bpbfrag1.cpiforpersia.uk",
                             "port": 443,
                             "users": [
                                 {
@@ -17663,13 +17663,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BpB241.SaMAnIdEMpIRE.OrG"
+                        "serverName": "bPbfRag1.cPiforpeRsia.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpb241.SaMAniDemPirE.orG"
+                            "Host": "bpBfrAG1.cpIFOrpErSIA.UK"
                         },
-                        "path": "/byNrltgrN1CP4cRI?ed=2560"
+                        "path": "/nY9NCiWsMbd950bZ?ed=2560"
                     }
                 },
                 "tag": "prox_1"
@@ -17708,13 +17708,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpB241.samanIDEmpiRE.orG"
+                        "serverName": "BPBFRAg1.cpiforpErsiA.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpB241.samanIdemPIRe.ORG"
+                            "Host": "BPBFRAG1.CpiForpERSia.uK"
                         },
-                        "path": "/PVohzPJk0oA3VtHp?ed=2560"
+                        "path": "/J0VjDO73YO4AspV5?ed=2560"
                     }
                 },
                 "tag": "prox_2"
@@ -17724,7 +17724,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "188.114.97.0",
+                            "address": "172.67.174.69",
                             "port": 443,
                             "users": [
                                 {
@@ -17753,13 +17753,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Bpb241.SaMAnIdemPIre.ORg"
+                        "serverName": "bPBfrAG1.CPIforpErsiA.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPB241.sAMAnIDEmpIrE.orG"
+                            "Host": "BPBFrag1.CPifoRPerSIa.uk"
                         },
-                        "path": "/MjFgTyPM0XeMjGgl?ed=2560"
+                        "path": "/5jPY5HF11EoUMHdw?ed=2560"
                     }
                 },
                 "tag": "prox_3"
@@ -17769,7 +17769,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "188.114.96.0",
+                            "address": "104.21.96.73",
                             "port": 443,
                             "users": [
                                 {
@@ -17798,13 +17798,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPb241.samaNidemPirE.Org"
+                        "serverName": "BpBFRaG1.CPiforPersiA.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPB241.SaManidEmPIrE.oRG"
+                            "Host": "bpbFRaG1.cpIfoRpERSia.uK"
                         },
-                        "path": "/unn8JQSbVvo7sMDu?ed=2560"
+                        "path": "/nT80UQe3NX6wLH9X?ed=2560"
                     }
                 },
                 "tag": "prox_4"
@@ -17814,7 +17814,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2a06:98c1:3120::]",
+                            "address": "[2606:4700:3035::ac43:ae45]",
                             "port": 443,
                             "users": [
                                 {
@@ -17843,13 +17843,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPb241.SAManidEmPIRE.oRG"
+                        "serverName": "bPbfRaG1.cpIFoRPERSia.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Bpb241.SAMANIdEmPIrE.OrG"
+                            "Host": "bpBfrAg1.CPIfORPERSIA.uK"
                         },
-                        "path": "/pJ0ksCSICIX0cO3a?ed=2560"
+                        "path": "/FHQpDExCJodcYdLv?ed=2560"
                     }
                 },
                 "tag": "prox_5"
@@ -17859,7 +17859,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2a06:98c1:3121::]",
+                            "address": "[2606:4700:3036::6815:6049]",
                             "port": 443,
                             "users": [
                                 {
@@ -17888,13 +17888,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Bpb241.SaMANIDEmpIRe.oRG"
+                        "serverName": "bpbfrag1.cPIfOrPersIa.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpB241.saManIDEMpiRe.oRG"
+                            "Host": "bPbfRAG1.CPiForPErSia.uK"
                         },
-                        "path": "/MyRQlhNAIZiVt6DN?ed=2560"
+                        "path": "/acrOrjo9MR0RHOQ1?ed=2560"
                     }
                 },
                 "tag": "prox_6"
@@ -17933,13 +17933,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPB241.SamAnIdeMpiRE.orG"
+                        "serverName": "BpBFraG1.cpIFOrPErSia.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPB241.sAMANiDemPirE.Org"
+                            "Host": "BpBFrAG1.CpIforPeRsIA.uk"
                         },
-                        "path": "/e84ZkoRF14djpvWG?ed=2560"
+                        "path": "/aV2cYfuhx9ZWLAoH?ed=2560"
                     }
                 },
                 "tag": "prox_7"
@@ -17978,13 +17978,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpb241.samaNIDeMpIrE.orG"
+                        "serverName": "bpBFrAG1.CpifoRPERsIa.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpb241.SAMANiDeMpirE.OrG"
+                            "Host": "BPBfRAG1.CPIFoRpERsIA.Uk"
                         },
-                        "path": "/UdxnrjwwDqMHNVCL?ed=2560"
+                        "path": "/g121P4SaShaWrSFF?ed=2560"
                     }
                 },
                 "tag": "prox_8"
@@ -18023,13 +18023,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BpB241.samAnidEmpirE.ORG"
+                        "serverName": "bPbFrAG1.CpiFOrpeRsiA.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPB241.SAMAnIDEMPIRE.ORG"
+                            "Host": "bPbfRaG1.CPIForPersIa.uk"
                         },
-                        "path": "/QWx7d7TxEtW88RR1?ed=2560"
+                        "path": "/UeYruyqwGjMx0GU0?ed=2560"
                     }
                 },
                 "tag": "prox_9"
@@ -18068,13 +18068,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPb241.sAmANiDemPIrE.OrG"
+                        "serverName": "bpbFraG1.CpifoRPerSIa.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPB241.SAmANIdeMPiRE.OrG"
+                            "Host": "bpBFrag1.cpIfOrPeRSiA.uk"
                         },
-                        "path": "/T1jNQabyH3YMjpso?ed=2560"
+                        "path": "/5v4TuM0QHlQV6vIS?ed=2560"
                     }
                 },
                 "tag": "prox_10"
@@ -18113,13 +18113,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BpB241.SAManiDEMpiRe.ORG"
+                        "serverName": "BpbfraG1.cpifoRPErsIA.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPB241.SamAnIDeMPIrE.ORG"
+                            "Host": "BpbFrag1.cPiForpErsIA.uK"
                         },
-                        "path": "/fcIE7JtyhtgfDwsf?ed=2560"
+                        "path": "/P9Nigbxjhh3bq1IX?ed=2560"
                     }
                 },
                 "tag": "prox_11"
@@ -18158,13 +18158,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpB241.SAmANIDEmPIre.orG"
+                        "serverName": "BPBfrAG1.CpiFOrpeRSia.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPb241.SAmanidEmPIrE.orG"
+                            "Host": "bPbfRag1.CpIfOrpErSIa.uk"
                         },
-                        "path": "/m76xcbd1MWBW3nuc?ed=2560"
+                        "path": "/f1kbVM6zg0n3BQKN?ed=2560"
                     }
                 },
                 "tag": "prox_12"
@@ -18203,13 +18203,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPB241.samAniDeMpIre.Org"
+                        "serverName": "BpbFRag1.cPIfoRPersia.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPb241.samanIDEmpirE.OrG"
+                            "Host": "bPBFRaG1.cpIForpErsIA.uk"
                         },
-                        "path": "/9448jLaSHG8Limq1?ed=2560"
+                        "path": "/qY1eWxIXSJZaieIo?ed=2560"
                     }
                 },
                 "tag": "prox_13"
@@ -18219,7 +18219,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "bpb241.samanidempire.org",
+                            "address": "bpbfrag1.cpiforpersia.uk",
                             "port": 8443,
                             "users": [
                                 {
@@ -18248,13 +18248,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpb241.saMAniDemPire.org"
+                        "serverName": "BpBFRag1.cPiFoRPErSia.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BpB241.SAMAnIDEMPire.OrG"
+                            "Host": "BPBfRAG1.CPifOrpErsia.Uk"
                         },
-                        "path": "/EYx5iW8CxQh9K9mO?ed=2560"
+                        "path": "/ZuxPMhbOqVt814F0?ed=2560"
                     }
                 },
                 "tag": "prox_14"
@@ -18293,13 +18293,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPB241.sAMaNIDemPire.ORg"
+                        "serverName": "BpbFRAG1.CPiFOrpERsia.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPB241.SAmAnideMpIRE.orG"
+                            "Host": "bPBFRag1.CPIFORpersIa.uk"
                         },
-                        "path": "/aS8EZ3dizDQpXPZM?ed=2560"
+                        "path": "/QalRayIuCREX1mv1?ed=2560"
                     }
                 },
                 "tag": "prox_15"
@@ -18309,7 +18309,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "188.114.97.0",
+                            "address": "172.67.174.69",
                             "port": 8443,
                             "users": [
                                 {
@@ -18338,13 +18338,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPb241.saMANIDEMPirE.org"
+                        "serverName": "BpBfRaG1.CPifOrPeRsIa.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BpB241.sAMANidEmPire.OrG"
+                            "Host": "bpBFraG1.cPIfOrperSIa.uK"
                         },
-                        "path": "/77jjQLQ6JZVxUhuN?ed=2560"
+                        "path": "/Kh3544IjSrxZB1Rw?ed=2560"
                     }
                 },
                 "tag": "prox_16"
@@ -18354,7 +18354,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "188.114.96.0",
+                            "address": "104.21.96.73",
                             "port": 8443,
                             "users": [
                                 {
@@ -18383,13 +18383,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Bpb241.SaMAniDEMpIre.ORg"
+                        "serverName": "bpbFRAg1.cpIFOrPERSIA.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPB241.saManiDeMPIrE.ORG"
+                            "Host": "BpbFRaG1.CPIFoRPErsiA.UK"
                         },
-                        "path": "/T6lGAnfXomHeLBYG?ed=2560"
+                        "path": "/b4thvKQeXXQsgOZc?ed=2560"
                     }
                 },
                 "tag": "prox_17"
@@ -18399,7 +18399,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2a06:98c1:3120::]",
+                            "address": "[2606:4700:3035::ac43:ae45]",
                             "port": 8443,
                             "users": [
                                 {
@@ -18428,13 +18428,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPb241.SaMAnidempIre.org"
+                        "serverName": "BPbFRAg1.cpiforpErsIa.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BpB241.sAmanIDemPire.oRG"
+                            "Host": "bpbFrAG1.CpiFOrPersiA.uK"
                         },
-                        "path": "/nLpZPaIuzNdRqLrA?ed=2560"
+                        "path": "/szzdbgdNwuqVNo9p?ed=2560"
                     }
                 },
                 "tag": "prox_18"
@@ -18444,7 +18444,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2a06:98c1:3121::]",
+                            "address": "[2606:4700:3036::6815:6049]",
                             "port": 8443,
                             "users": [
                                 {
@@ -18473,13 +18473,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPB241.SamaNidEMPiRe.oRg"
+                        "serverName": "BpbFrAg1.CpIfOrPeRSIa.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPB241.samAniDEmpIRE.org"
+                            "Host": "BpBFRag1.cpiforPeRSIA.uK"
                         },
-                        "path": "/Ja39mpb3Ks1Y2fx5?ed=2560"
+                        "path": "/gEoHzXvXCPDgINP6?ed=2560"
                     }
                 },
                 "tag": "prox_19"
@@ -18518,13 +18518,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpb241.SAMAnIDemPIrE.oRG"
+                        "serverName": "bpBfrag1.CpIFOrPERsiA.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BpB241.sAmaniDEMpire.ORG"
+                            "Host": "bPBFRAG1.CpifoRpeRSia.Uk"
                         },
-                        "path": "/F9nHSPRTlC17up3O?ed=2560"
+                        "path": "/u9mY5Y8lTvoLU4vy?ed=2560"
                     }
                 },
                 "tag": "prox_20"
@@ -18563,13 +18563,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPb241.SAmANIDEmpIre.Org"
+                        "serverName": "bPBFraG1.CPiFoRpErsIA.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Bpb241.sAManiDEMPIRE.oRg"
+                            "Host": "bPBfrag1.cpIfoRperSia.Uk"
                         },
-                        "path": "/EFXEL4D1KyEmS0MO?ed=2560"
+                        "path": "/GJiav1UXwrWRFRfT?ed=2560"
                     }
                 },
                 "tag": "prox_21"
@@ -18608,13 +18608,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPB241.sAmANidemPiRE.OrG"
+                        "serverName": "BPbfRAg1.cpiFoRPErSIA.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPB241.SAmANIdemPiRE.Org"
+                            "Host": "bpbfRaG1.cpifORPERSia.Uk"
                         },
-                        "path": "/mzwuydh9uO0Q4mjk?ed=2560"
+                        "path": "/5XOuOU7ZKzBeKRnx?ed=2560"
                     }
                 },
                 "tag": "prox_22"
@@ -18653,13 +18653,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPb241.sAmAnIdEmpIRe.ORg"
+                        "serverName": "BPBFRAG1.cpIfORperSIA.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPb241.samAniDEMPiRE.oRG"
+                            "Host": "bpBfRaG1.CpIfORPERSIa.uK"
                         },
-                        "path": "/lQbR5gliKQax5SrL?ed=2560"
+                        "path": "/nhRZxipromOfyhFs?ed=2560"
                     }
                 },
                 "tag": "prox_23"
@@ -18698,13 +18698,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Bpb241.samaniDEMPire.Org"
+                        "serverName": "bpBFRag1.cpIfOrPerSIa.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPb241.SAMAniDempIrE.OrG"
+                            "Host": "BPbFRaG1.CPifORPErSia.uK"
                         },
-                        "path": "/TDbkHSLBWHUyau7G?ed=2560"
+                        "path": "/LlnSoWcmxWUpsXz0?ed=2560"
                     }
                 },
                 "tag": "prox_24"
@@ -18743,13 +18743,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpb241.SAMaNIdemPIre.Org"
+                        "serverName": "BpBFraG1.cpiforperSIa.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPb241.sAMaNIdempIRE.oRG"
+                            "Host": "bpbfRag1.cpiForPeRSia.uk"
                         },
-                        "path": "/gVMCsyT9fByiQPmW?ed=2560"
+                        "path": "/k8BgDNLa3aY5Qcs6?ed=2560"
                     }
                 },
                 "tag": "prox_25"
@@ -18788,13 +18788,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpB241.SaMAniDemPIRE.ORG"
+                        "serverName": "BpBFrag1.cPIForPERsIA.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPb241.sAMANiDempIrE.oRG"
+                            "Host": "BPBFraG1.cPIfOrPeRSIa.Uk"
                         },
-                        "path": "/WcC89BmhhNb91ixp?ed=2560"
+                        "path": "/nBW4rxuTJ2Vxm07n?ed=2560"
                     }
                 },
                 "tag": "prox_26"
@@ -18804,7 +18804,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "bpb241.samanidempire.org",
+                            "address": "bpbfrag1.cpiforpersia.uk",
                             "port": 2053,
                             "users": [
                                 {
@@ -18833,13 +18833,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPB241.samaNiDEmpIRE.ORg"
+                        "serverName": "bpbFRAG1.CpiForPersIA.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPb241.SamANIDEMPire.OrG"
+                            "Host": "BPBfraG1.cpIFOrpersIA.UK"
                         },
-                        "path": "/ozOm1WZ9QKjlXTYW?ed=2560"
+                        "path": "/s3stKCVwxlDsa1dx?ed=2560"
                     }
                 },
                 "tag": "prox_27"
@@ -18878,13 +18878,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPb241.sAmanidEMpIRe.OrG"
+                        "serverName": "bpBfRaG1.CPifoRpERsiA.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPB241.saManidemPIRe.oRg"
+                            "Host": "BPbfrag1.CPIFORpersiA.uk"
                         },
-                        "path": "/ouFKvjKvFQu6T30x?ed=2560"
+                        "path": "/qZNN0lfMCpWbtjs2?ed=2560"
                     }
                 },
                 "tag": "prox_28"
@@ -18894,7 +18894,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "188.114.97.0",
+                            "address": "172.67.174.69",
                             "port": 2053,
                             "users": [
                                 {
@@ -18923,13 +18923,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpb241.samaNidemPiRE.Org"
+                        "serverName": "BpBFRAg1.cPifOrPeRSiA.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BpB241.saManIDeMPire.oRg"
+                            "Host": "BPbFRAg1.cpIFOrpersIa.UK"
                         },
-                        "path": "/gMxx9Q3z1eW8dlIN?ed=2560"
+                        "path": "/P9MC197tEDSNEmAF?ed=2560"
                     }
                 },
                 "tag": "prox_29"
@@ -18939,7 +18939,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "188.114.96.0",
+                            "address": "104.21.96.73",
                             "port": 2053,
                             "users": [
                                 {
@@ -18968,13 +18968,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BpB241.SAMaNiDemPirE.OrG"
+                        "serverName": "bPBfRag1.CPiforpErSia.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Bpb241.saMaNiDempIRE.oRg"
+                            "Host": "bPBfRAG1.CpIfOrpersiA.UK"
                         },
-                        "path": "/Zl4liA76nb6wMWEH?ed=2560"
+                        "path": "/N4tfquiEAQBX0dFY?ed=2560"
                     }
                 },
                 "tag": "prox_30"
@@ -18984,7 +18984,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2a06:98c1:3120::]",
+                            "address": "[2606:4700:3035::ac43:ae45]",
                             "port": 2053,
                             "users": [
                                 {
@@ -19013,13 +19013,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpB241.samANIDemPirE.OrG"
+                        "serverName": "bPBFRaG1.CpiFORpERsia.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpB241.samANiDeMpIRe.oRg"
+                            "Host": "bpBfRAG1.cPifORPErSiA.Uk"
                         },
-                        "path": "/cXhAhYaZRO4z9DSR?ed=2560"
+                        "path": "/8jDOUDxbfGmWz0G3?ed=2560"
                     }
                 },
                 "tag": "prox_31"
@@ -19029,7 +19029,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2a06:98c1:3121::]",
+                            "address": "[2606:4700:3036::6815:6049]",
                             "port": 2053,
                             "users": [
                                 {
@@ -19058,13 +19058,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpB241.sAmaniDEmpire.OrG"
+                        "serverName": "bPbFrAg1.CpIforPersiA.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpB241.saMAnIdEMPiRe.org"
+                            "Host": "BpbfrAg1.CpiforPersia.Uk"
                         },
-                        "path": "/uoWAPRNYkbA3la6M?ed=2560"
+                        "path": "/O3oUcpwpe18x4EHY?ed=2560"
                     }
                 },
                 "tag": "prox_32"
@@ -19103,13 +19103,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Bpb241.SAmanIdEmpIre.OrG"
+                        "serverName": "bPbFRag1.cpIforPeRsIa.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpb241.SamaNIDEMPIrE.org"
+                            "Host": "BpbfRag1.cpIForperSIa.uK"
                         },
-                        "path": "/GqwhtOssEQzGBl7e?ed=2560"
+                        "path": "/lXQer6oYmYUBcmgL?ed=2560"
                     }
                 },
                 "tag": "prox_33"
@@ -19148,13 +19148,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPB241.sAmaNiDEMpire.ORG"
+                        "serverName": "bpbFRAG1.CPiForpERsIa.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpb241.SaMaNIdeMPirE.oRG"
+                            "Host": "BPbfRaG1.cpIFOrpERSiA.UK"
                         },
-                        "path": "/RqjMsqjQnqe77Shd?ed=2560"
+                        "path": "/nt5J0ctFOlGPQE8f?ed=2560"
                     }
                 },
                 "tag": "prox_34"
@@ -19193,13 +19193,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPB241.SaMAniDempiRe.OrG"
+                        "serverName": "bPBfraG1.CpiFoRPerSIA.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Bpb241.sAmaNIdEMpIRe.orG"
+                            "Host": "BpbFrAG1.CPiForPerSia.UK"
                         },
-                        "path": "/zD1HwensyDPHHYXU?ed=2560"
+                        "path": "/U9BpkyHOOG4yd5zU?ed=2560"
                     }
                 },
                 "tag": "prox_35"
@@ -19238,13 +19238,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPb241.SamaNIDempiRE.OrG"
+                        "serverName": "BpBFRaG1.cPifOrpeRsia.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BpB241.SAmaNidempiRE.orG"
+                            "Host": "BpbfRAg1.cpIfoRpErSia.Uk"
                         },
-                        "path": "/HZ4hxflYClwza5lz?ed=2560"
+                        "path": "/ad00wA3asens66lY?ed=2560"
                     }
                 },
                 "tag": "prox_36"
@@ -19283,13 +19283,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BpB241.SamaNIdEmpIrE.oRg"
+                        "serverName": "BPBFRAg1.CPIfORpeRsia.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Bpb241.samAnIDeMpirE.ORg"
+                            "Host": "BpBfrag1.cpIForPERSiA.Uk"
                         },
-                        "path": "/TuVoEpoQQEbu8cxu?ed=2560"
+                        "path": "/mzDSi85xOZUq9zQe?ed=2560"
                     }
                 },
                 "tag": "prox_37"
@@ -19328,13 +19328,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPB241.SaMAnIDEmpire.OrG"
+                        "serverName": "BpBFrag1.cPifORPeRsia.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpB241.sAMAnIdEMPIRE.ORg"
+                            "Host": "bPBfRAG1.cPIFoRpeRSIA.uk"
                         },
-                        "path": "/LDgHsKMBHSwdJmY4?ed=2560"
+                        "path": "/s9HTxivDiBf6BeHQ?ed=2560"
                     }
                 },
                 "tag": "prox_38"
@@ -19373,13 +19373,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPB241.SAmaNideMPirE.ORG"
+                        "serverName": "BpbFraG1.cPifoRpERSiA.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPB241.sAMaNIdEmpirE.Org"
+                            "Host": "BpBfraG1.cPifOrpeRSIa.uK"
                         },
-                        "path": "/pbvCSwzboWH2J6PU?ed=2560"
+                        "path": "/VOxgzl2dZTrDUW7c?ed=2560"
                     }
                 },
                 "tag": "prox_39"
@@ -19389,7 +19389,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "bpb241.samanidempire.org",
+                            "address": "bpbfrag1.cpiforpersia.uk",
                             "port": 2083,
                             "users": [
                                 {
@@ -19418,13 +19418,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BpB241.saMaNIDEmpIRE.ORg"
+                        "serverName": "bPbfrag1.cPIFoRPersiA.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPB241.SamAnIdeMPirE.ORg"
+                            "Host": "BPBfrAg1.cpifORPErsIa.uk"
                         },
-                        "path": "/vDLrrYwoaFSvxmDd?ed=2560"
+                        "path": "/UPS99zCDEtqhfsmY?ed=2560"
                     }
                 },
                 "tag": "prox_40"
@@ -19463,13 +19463,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPb241.SAmanIdempirE.oRG"
+                        "serverName": "bpBfraG1.cpIFoRpErsIa.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPB241.SAManIDeMpirE.ORG"
+                            "Host": "bpbfRaG1.CPiFoRpERsIa.uK"
                         },
-                        "path": "/82YXZhz0UoAuKfcG?ed=2560"
+                        "path": "/fCcHRD6CYGKlS1Oj?ed=2560"
                     }
                 },
                 "tag": "prox_41"
@@ -19479,7 +19479,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "188.114.97.0",
+                            "address": "172.67.174.69",
                             "port": 2083,
                             "users": [
                                 {
@@ -19508,13 +19508,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Bpb241.SAMaNideMpiRE.oRG"
+                        "serverName": "bPbFrag1.cpIfoRPERSIA.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Bpb241.samaniDempIrE.OrG"
+                            "Host": "bpbFrAG1.CPIfoRpersIA.uk"
                         },
-                        "path": "/LCjPoWEc4B44F0CG?ed=2560"
+                        "path": "/HN9ghrWh6tmvopth?ed=2560"
                     }
                 },
                 "tag": "prox_42"
@@ -19524,7 +19524,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "188.114.96.0",
+                            "address": "104.21.96.73",
                             "port": 2083,
                             "users": [
                                 {
@@ -19553,13 +19553,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPb241.SamAnideMPIrE.OrG"
+                        "serverName": "BpBFRaG1.CpiFORpeRsia.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpB241.sAMANidemPiRe.ORg"
+                            "Host": "BpBfRAg1.CPiFOrpERsIA.uK"
                         },
-                        "path": "/4zEEL7r5DButguQ4?ed=2560"
+                        "path": "/rxE7NlN7tQgGPWR5?ed=2560"
                     }
                 },
                 "tag": "prox_43"
@@ -19569,7 +19569,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2a06:98c1:3120::]",
+                            "address": "[2606:4700:3035::ac43:ae45]",
                             "port": 2083,
                             "users": [
                                 {
@@ -19598,13 +19598,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpB241.saMAniDeMpIRe.Org"
+                        "serverName": "bPBFRAg1.cPIfOrpeRsIa.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPB241.SaMaNideMpIRE.OrG"
+                            "Host": "BpBFrAG1.cPIFOrpersIa.uK"
                         },
-                        "path": "/yvMLuH1ZEVgw523R?ed=2560"
+                        "path": "/EOSDMAplCRVuqLT7?ed=2560"
                     }
                 },
                 "tag": "prox_44"
@@ -19614,7 +19614,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2a06:98c1:3121::]",
+                            "address": "[2606:4700:3036::6815:6049]",
                             "port": 2083,
                             "users": [
                                 {
@@ -19643,13 +19643,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPb241.saMANiDEMpire.oRg"
+                        "serverName": "bPBFRAg1.CPifORPERSiA.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPb241.SaManIDempire.orG"
+                            "Host": "BPbFRaG1.cpIFoRPERSIa.uK"
                         },
-                        "path": "/tUYOiRukgWUSLZDx?ed=2560"
+                        "path": "/TjioTu05FB7nslAa?ed=2560"
                     }
                 },
                 "tag": "prox_45"
@@ -19688,13 +19688,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpb241.SAMaNIDEmPIre.OrG"
+                        "serverName": "bPBFrag1.CpiFORpeRSIA.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpB241.SAmanideMPiRE.Org"
+                            "Host": "BpBfRaG1.CpIfoRPErSIa.UK"
                         },
-                        "path": "/4wqjClkcXrVB1Kkd?ed=2560"
+                        "path": "/pzGFYTOgTbwp25mK?ed=2560"
                     }
                 },
                 "tag": "prox_46"
@@ -19733,13 +19733,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPB241.sAManidEMpIRe.org"
+                        "serverName": "BPBFraG1.cpiFOrpeRsIA.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPb241.SAMaNiDEmpIRE.ORG"
+                            "Host": "bpbfRaG1.cpiForpErSIA.uK"
                         },
-                        "path": "/mPPjMm5ZhhSZQG5V?ed=2560"
+                        "path": "/PbUyqxwlsg2Xgy50?ed=2560"
                     }
                 },
                 "tag": "prox_47"
@@ -19778,13 +19778,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPB241.SAmaNiDeMPiRe.ORG"
+                        "serverName": "bpBFRAG1.cPIfOrpeRsia.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpB241.samaNIDEmPIRE.org"
+                            "Host": "BpBfRaG1.cpIFOrPErsiA.UK"
                         },
-                        "path": "/Ps1PcIxvfHhzm0Gn?ed=2560"
+                        "path": "/fojgu6o5lR9wKjkE?ed=2560"
                     }
                 },
                 "tag": "prox_48"
@@ -19823,13 +19823,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPB241.SaMAnIdEMpire.oRg"
+                        "serverName": "BPbfRag1.CpifORPeRsiA.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPB241.SAmANIdEMpIrE.org"
+                            "Host": "bpBfrAG1.CPIFORPeRsIA.uK"
                         },
-                        "path": "/G9Dx6UbdCNASrzaR?ed=2560"
+                        "path": "/jmY5OqAk6A9hWnfu?ed=2560"
                     }
                 },
                 "tag": "prox_49"
@@ -19868,13 +19868,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPB241.sAMaNiDemPIRe.oRG"
+                        "serverName": "bPbfRAg1.CpIFoRperSIA.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPb241.samanIdEmpIRe.orG"
+                            "Host": "BPbFRAG1.cpifOrPErSia.uk"
                         },
-                        "path": "/8POkfJ5HbsP0dwRr?ed=2560"
+                        "path": "/b40M7Y4WpSVPWOUb?ed=2560"
                     }
                 },
                 "tag": "prox_50"
@@ -19913,13 +19913,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPB241.SaMaNIDEmPiRe.orG"
+                        "serverName": "bPBFRag1.cPIFOrPERsIa.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpb241.samANIdEmPIRe.ORg"
+                            "Host": "BPBfRaG1.cpiForpeRsIA.Uk"
                         },
-                        "path": "/cZbzwONiBttOgmCt?ed=2560"
+                        "path": "/jOoAmJoiJjI7SKQH?ed=2560"
                     }
                 },
                 "tag": "prox_51"
@@ -19958,13 +19958,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPb241.samANidEmpiRe.OrG"
+                        "serverName": "bpbfRAG1.cPIfoRPERSia.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpB241.SAmANiDeMPirE.oRg"
+                            "Host": "bpbFrAg1.CpiFOrpERSia.uk"
                         },
-                        "path": "/iEXZg7j5x9DXZLZ4?ed=2560"
+                        "path": "/ddWp21PxyWCN9mub?ed=2560"
                     }
                 },
                 "tag": "prox_52"
@@ -19974,7 +19974,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "bpb241.samanidempire.org",
+                            "address": "bpbfrag1.cpiforpersia.uk",
                             "port": 2087,
                             "users": [
                                 {
@@ -20003,13 +20003,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPB241.SamAniDEMPiRE.OrG"
+                        "serverName": "BPBFRaG1.CpIfORPERSiA.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPB241.sAManiDeMPire.ORg"
+                            "Host": "BPBFRAg1.cPiforPeRsIa.UK"
                         },
-                        "path": "/GlE7a9vewFw7GpOH?ed=2560"
+                        "path": "/WIyqDk19YrMoJHXf?ed=2560"
                     }
                 },
                 "tag": "prox_53"
@@ -20048,13 +20048,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Bpb241.SaMAnidEMpIrE.OrG"
+                        "serverName": "BPbFRAG1.cPiFORPErSiA.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPb241.sAManIdEMpIRE.ORG"
+                            "Host": "bpBfRaG1.cPiFOrPERsiA.uK"
                         },
-                        "path": "/QTwnZrMD9lgYCTyO?ed=2560"
+                        "path": "/GlTgioEh7pLAlfE9?ed=2560"
                     }
                 },
                 "tag": "prox_54"
@@ -20064,7 +20064,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "188.114.97.0",
+                            "address": "172.67.174.69",
                             "port": 2087,
                             "users": [
                                 {
@@ -20093,13 +20093,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpb241.SamanIdEMPIre.oRg"
+                        "serverName": "BPBFRag1.cpIForPErsIA.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPb241.SAManIDeMpiRe.orG"
+                            "Host": "BpbfRAg1.cpiFORpERsIa.uk"
                         },
-                        "path": "/nq7o2fzXVJq29KBI?ed=2560"
+                        "path": "/HaoYXQicUmPncF2c?ed=2560"
                     }
                 },
                 "tag": "prox_55"
@@ -20109,7 +20109,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "188.114.96.0",
+                            "address": "104.21.96.73",
                             "port": 2087,
                             "users": [
                                 {
@@ -20138,13 +20138,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Bpb241.SAMAniDeMPiRE.OrG"
+                        "serverName": "bPbfRag1.CpIfoRpERSIA.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPB241.saManIDEmpIRe.oRg"
+                            "Host": "bPbfRAG1.CpIfOrPERSIA.uk"
                         },
-                        "path": "/ebeWKRaSAfauNe4P?ed=2560"
+                        "path": "/GaLfglMCp67vU3JL?ed=2560"
                     }
                 },
                 "tag": "prox_56"
@@ -20154,7 +20154,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2a06:98c1:3120::]",
+                            "address": "[2606:4700:3035::ac43:ae45]",
                             "port": 2087,
                             "users": [
                                 {
@@ -20183,13 +20183,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPB241.saMAnidEMpIre.OrG"
+                        "serverName": "bpBFraG1.cpiFOrpeRSia.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Bpb241.SAmaNIDeMpirE.oRG"
+                            "Host": "BpBfrAG1.cpiFORPErSiA.uK"
                         },
-                        "path": "/I4j74qvK5HW8aSGN?ed=2560"
+                        "path": "/3Mzg8QH3tWOqXENZ?ed=2560"
                     }
                 },
                 "tag": "prox_57"
@@ -20199,7 +20199,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2a06:98c1:3121::]",
+                            "address": "[2606:4700:3036::6815:6049]",
                             "port": 2087,
                             "users": [
                                 {
@@ -20228,13 +20228,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPB241.sAmAnIdeMPirE.ORG"
+                        "serverName": "bpbFRaG1.CpIforPERsiA.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPB241.SAmANidEMPiRE.oRg"
+                            "Host": "BPBfrAG1.cpiFoRPeRSIA.Uk"
                         },
-                        "path": "/sFIqIcWLJD5SBaOd?ed=2560"
+                        "path": "/rx5GD3vH5Pq5ydsx?ed=2560"
                     }
                 },
                 "tag": "prox_58"
@@ -20273,13 +20273,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Bpb241.saMaNIdEmpIRE.oRg"
+                        "serverName": "bPbFRaG1.CPiforPERSIa.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpb241.SAmaniDeMpirE.ORG"
+                            "Host": "bpbFrAG1.cpIfOrPersia.uk"
                         },
-                        "path": "/9GyaT6Okd93tHT6K?ed=2560"
+                        "path": "/NAh6I36axa0CLOaW?ed=2560"
                     }
                 },
                 "tag": "prox_59"
@@ -20318,13 +20318,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPb241.sAmAnIdemPirE.oRG"
+                        "serverName": "bpBfrAG1.cPIFoRpERSia.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BpB241.SaMANidEMPirE.Org"
+                            "Host": "BpbfrAg1.cPifOrpeRsIA.UK"
                         },
-                        "path": "/lE3SkJmnqJaK72TO?ed=2560"
+                        "path": "/42UAk4lW3xV6gJYt?ed=2560"
                     }
                 },
                 "tag": "prox_60"
@@ -20363,13 +20363,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpB241.sAmanidEmpire.org"
+                        "serverName": "bPbFraG1.CPiforpeRSia.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPB241.SAmaniDEMpire.oRG"
+                            "Host": "bPBfRAG1.CpIfOrPeRsiA.uK"
                         },
-                        "path": "/9JtL5U0KuQZXwlb5?ed=2560"
+                        "path": "/xBnZayebg1sYvazP?ed=2560"
                     }
                 },
                 "tag": "prox_61"
@@ -20408,13 +20408,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpb241.SaManiDemPire.Org"
+                        "serverName": "bpbFRAg1.CPiforpErSIa.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Bpb241.sAMAniDEmpIRE.oRG"
+                            "Host": "bPbfraG1.CpIfOrpErsIa.uk"
                         },
-                        "path": "/ZYvFqYK2sIKrSAL1?ed=2560"
+                        "path": "/RlsnhwoRQYgWecVW?ed=2560"
                     }
                 },
                 "tag": "prox_62"
@@ -20453,13 +20453,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpB241.sAMaNIDempirE.ORG"
+                        "serverName": "BpbFrag1.CPiforpeRsIA.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BpB241.SaMaNIdEMpire.ORG"
+                            "Host": "BPbFRag1.cpiforPerSIa.uK"
                         },
-                        "path": "/Aflkc66YXVtmbinH?ed=2560"
+                        "path": "/VadU3hsWRQHpd2U0?ed=2560"
                     }
                 },
                 "tag": "prox_63"
@@ -20498,13 +20498,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPb241.sAmaNIdempiRe.oRg"
+                        "serverName": "bpBfrAG1.CPIFOrpeRsia.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Bpb241.SAMANidEmpIrE.Org"
+                            "Host": "BpbfrAg1.cPIfORPErsIa.uk"
                         },
-                        "path": "/t8ARC7FYb7zJeVF2?ed=2560"
+                        "path": "/OUAcflro1rF5lMtm?ed=2560"
                     }
                 },
                 "tag": "prox_64"
@@ -20543,13 +20543,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPB241.SAmAnIdeMpirE.ORg"
+                        "serverName": "bpBFRAG1.cpIfOrPERsIA.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPB241.SaMaNIdEmpire.orG"
+                            "Host": "BpBFRAg1.cPIFOrPERSIA.uk"
                         },
-                        "path": "/Tbc1FTFCWD1sgSyY?ed=2560"
+                        "path": "/DbPaYgNi94WZBpnR?ed=2560"
                     }
                 },
                 "tag": "prox_65"
@@ -20559,7 +20559,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "bpb241.samanidempire.org",
+                            "address": "bpbfrag1.cpiforpersia.uk",
                             "port": 2096,
                             "users": [
                                 {
@@ -20588,13 +20588,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPb241.SAmanIdeMPIRE.Org"
+                        "serverName": "BPbFrAg1.CpIFOrPERSIa.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPb241.SaMANIDEMPire.orG"
+                            "Host": "Bpbfrag1.cpIforPerSia.Uk"
                         },
-                        "path": "/gvfR389VVE9wrdYj?ed=2560"
+                        "path": "/siHjIZoZW5eevdhr?ed=2560"
                     }
                 },
                 "tag": "prox_66"
@@ -20633,13 +20633,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpb241.SamAnIdeMpiRe.ORG"
+                        "serverName": "bpBfRag1.cpIfORPerSia.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPb241.SAmanIdEmPIRe.ORg"
+                            "Host": "BpbFrAG1.CPifORPERSIA.UK"
                         },
-                        "path": "/IxMVAPz8Jr4ROO4c?ed=2560"
+                        "path": "/T95MbgHmXRJfGDHq?ed=2560"
                     }
                 },
                 "tag": "prox_67"
@@ -20649,7 +20649,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "188.114.97.0",
+                            "address": "172.67.174.69",
                             "port": 2096,
                             "users": [
                                 {
@@ -20678,13 +20678,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPB241.SamANIdeMPIRE.OrG"
+                        "serverName": "BpBFrAG1.CpiforPeRsIa.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPb241.SaMaNIdEmpIrE.ORg"
+                            "Host": "BPBFrag1.cpifORPeRSia.uK"
                         },
-                        "path": "/cKxd6kDTkr2AXSnJ?ed=2560"
+                        "path": "/hURZ1vF7HNsi0LR0?ed=2560"
                     }
                 },
                 "tag": "prox_68"
@@ -20694,7 +20694,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "188.114.96.0",
+                            "address": "104.21.96.73",
                             "port": 2096,
                             "users": [
                                 {
@@ -20723,13 +20723,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpb241.SamAnIdeMpIre.Org"
+                        "serverName": "BPBFraG1.cpifOrPeRsIa.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPb241.saMANIDEMPIRE.ORg"
+                            "Host": "BpBFRag1.CpIfORPERsiA.uk"
                         },
-                        "path": "/LG9Tg4Z1R0PGUWVH?ed=2560"
+                        "path": "/Fn7lAMhn0EaTe45b?ed=2560"
                     }
                 },
                 "tag": "prox_69"
@@ -20739,7 +20739,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2a06:98c1:3120::]",
+                            "address": "[2606:4700:3035::ac43:ae45]",
                             "port": 2096,
                             "users": [
                                 {
@@ -20768,13 +20768,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BpB241.sAmanIDEmpIre.org"
+                        "serverName": "BPBFRag1.CPIFORpeRsiA.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPb241.sAManIdeMpIRE.OrG"
+                            "Host": "BpBfRAG1.CPIForPersIa.Uk"
                         },
-                        "path": "/RetJYWppM01ifyFH?ed=2560"
+                        "path": "/qG41ZLz3cNXjM5wB?ed=2560"
                     }
                 },
                 "tag": "prox_70"
@@ -20784,7 +20784,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2a06:98c1:3121::]",
+                            "address": "[2606:4700:3036::6815:6049]",
                             "port": 2096,
                             "users": [
                                 {
@@ -20813,13 +20813,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Bpb241.SAManIDEMpIrE.Org"
+                        "serverName": "BPBFrag1.CPIfoRPERSiA.uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Bpb241.SAmANIdempIre.oRg"
+                            "Host": "BpBfRag1.CPifOrpErSiA.uk"
                         },
-                        "path": "/W9Q2uCRb0KvlmnKq?ed=2560"
+                        "path": "/gI718dOo3WUqRDBa?ed=2560"
                     }
                 },
                 "tag": "prox_71"
@@ -20858,13 +20858,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Bpb241.sAmanidEMPirE.oRg"
+                        "serverName": "BPBfrAg1.CPiFOrPERsIa.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpb241.sAManidempiRE.Org"
+                            "Host": "bPbfrag1.cpIFOrPERSIA.uK"
                         },
-                        "path": "/NWEu5OwlcJUHfDiT?ed=2560"
+                        "path": "/84hGVGk3ijluINcm?ed=2560"
                     }
                 },
                 "tag": "prox_72"
@@ -20903,13 +20903,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bPB241.sAManiDeMpirE.orG"
+                        "serverName": "bPbFRag1.CpIFORPERSia.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPb241.SAmANIDempiRe.Org"
+                            "Host": "BpBfRAg1.CpIFOrPErsIA.uk"
                         },
-                        "path": "/Eg2J7DPYEouBIDaI?ed=2560"
+                        "path": "/mEjolIIztVai0BXn?ed=2560"
                     }
                 },
                 "tag": "prox_73"
@@ -20948,13 +20948,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Bpb241.samanidempire.oRg"
+                        "serverName": "bpbfrAG1.CpiFORpeRSia.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPb241.SAMAnIdEMpIrE.OrG"
+                            "Host": "bPBFRaG1.CPifOrPERSIa.Uk"
                         },
-                        "path": "/WixhYr1x6xma9LqV?ed=2560"
+                        "path": "/b0Q0bJVEeGlWdTyJ?ed=2560"
                     }
                 },
                 "tag": "prox_74"
@@ -20993,13 +20993,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPb241.sAMaNidEmPire.orG"
+                        "serverName": "bpBFRaG1.CPiFORpErsIa.UK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpB241.SAmanIdEMPiRe.oRG"
+                            "Host": "bpbfrAg1.CPifOrpERSIa.uk"
                         },
-                        "path": "/yNNqt0xIl3en3wZR?ed=2560"
+                        "path": "/e1RepSogNaY1Vg3O?ed=2560"
                     }
                 },
                 "tag": "prox_75"
@@ -21038,13 +21038,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPb241.sAMAnIdEmpiRE.Org"
+                        "serverName": "BPBFRag1.cpIfOrpERsia.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "BPB241.SamAnIDeMpiRe.Org"
+                            "Host": "bPbfrag1.cPIforPersIA.Uk"
                         },
-                        "path": "/lnJlfmMe9iYwM49I?ed=2560"
+                        "path": "/KgefUf1CDWH2sqY6?ed=2560"
                     }
                 },
                 "tag": "prox_76"
@@ -21083,13 +21083,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "bpb241.SamaNiDeMpiRe.oRG"
+                        "serverName": "bPBFRag1.cpIFORpErSIa.uK"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bPB241.SAmAniDeMpire.org"
+                            "Host": "BPBfraG1.cpifoRpersia.uk"
                         },
-                        "path": "/ufr5hb47Q0q1DnmO?ed=2560"
+                        "path": "/0T3HIMiuoyj6ILQ7?ed=2560"
                     }
                 },
                 "tag": "prox_77"
@@ -21128,13 +21128,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BPB241.SAmanIdEmpiRe.oRG"
+                        "serverName": "BpbfRag1.cpIfoRPErSIA.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpB241.SamaNiDeMpIRe.oRg"
+                            "Host": "BPBFRAg1.cpiForpErSia.uK"
                         },
-                        "path": "/YktlAf6v9iL5plkQ?ed=2560"
+                        "path": "/Un1YChLDOLqbsd9d?ed=2560"
                     }
                 },
                 "tag": "prox_78"
@@ -21343,7 +21343,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "bpb241.samanidempire.org",
+                            "address": "bpbfrag1.cpiforpersia.uk",
                             "port": 443,
                             "users": [
                                 {
@@ -21371,13 +21371,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "BpB241.SaMAnIdEMpIRE.OrG"
+                        "serverName": "bPbfRag1.cPiforpeRsia.Uk"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "bpb241.SaMAniDemPirE.orG"
+                            "Host": "bpBfrAG1.cpIFOrpErSIA.UK"
                         },
-                        "path": "/byNrltgrN1CP4cRI?ed=2560"
+                        "path": "/nY9NCiWsMbd950bZ?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -21746,12 +21746,12 @@
                 "cloudflare-dns.com": [
                     "104.16.248.249",
                     "104.16.249.249",
-                    "104.16.133.229",
                     "104.16.132.229",
-                    "104.17.147.22",
+                    "104.16.133.229",
                     "104.17.148.22",
-                    "173.245.59.103",
+                    "104.17.147.22",
                     "172.64.33.103",
+                    "173.245.59.103",
                     "108.162.193.103",
                     "108.162.192.128",
                     "172.64.32.128",
