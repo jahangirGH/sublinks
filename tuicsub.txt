@@ -159,5 +159,5 @@ vless://15c2491a-01d2-4d36-b4c4-7095682368cd@autotrader.co.uk:443?encryption=non
 
 trojan://15c2491a-01d2-4d36-b4c4-7095682368cd@autotrader.co.uk:443?security=tls&sni=sublinkhiddifyc1.makingirangreatagain.com&alpn=h3&fp=chrome&type=splithttp&host=sublinkhiddifyc1.makingirangreatagain.com&path=%2FypSUmDMymGhCkg3TaA1#IRANCPI_%20h3_quic%20splithttp%20CDN%20trojan
 
-
+ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206TldJMU5XSmpPV1l5TldSa05EZGxZamxtTURNeFlUYzJOMk01WW1VMFlqVT06TVRWak1qUTVNV0V3TVdReU5HUXpObUkwWXpRM01EazFOamd5TXpZNFkyUT0=@sublinkhiddify.makingirangreatagain.com:19458#sublinkhiddify.makingirangreatagain.com%20ShadowSocks2022
 
