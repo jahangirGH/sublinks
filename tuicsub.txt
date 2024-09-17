@@ -10,9 +10,9 @@ hy2://1f17cdf0578a2860@[2001:19f0:5:34a0:5400:5ff:fe19:3f6f]:443/?obfs=salamande
 
 hy2://1f17cdf0578a2860@45.76.0.86:443/?obfs=salamander&obfs-password=4b817757&insecure=1#CPI3
 
-tuic://1ef85f0c-9c17-4dd3-9ed4-cf722b9ac8c8:18240b2dfdd76484@[2a05:f480:2000:1384:5400:5ff:fe19:8b0a]:443/?congestion_control=bbr&udp_relay_mode=quic&allow_insecure=1#CPI4-ipv6
+hy2://18240b2dfdd76484@[2a05:f480:2000:1384:5400:5ff:fe19:8b0a]:443/?obfs=salamander&obfs-password=d2648ec2&insecure=1#CPI4-ipv6
 
-tuic://1ef85f0c-9c17-4dd3-9ed4-cf722b9ac8c8:18240b2dfdd76484@70.34.207.153:443/?congestion_control=bbr&udp_relay_mode=quic&allow_insecure=1#CPI4
+hy2://18240b2dfdd76484@70.34.207.153:443/?obfs=salamander&obfs-password=d2648ec2&insecure=1#CPI4
 
 vless://aaf8a6c9-aaad-4f85-dd01-9ccd4ca554f9@xraypsiphon.sassanidempire.com:443?encryption=none&security=tls&sni=xraypsiphon.sassanidempire.com&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=xraypsiphon.sassanidempire.com&path=%2Fwspath#CPI_psi_Xray
 
