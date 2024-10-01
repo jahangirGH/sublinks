@@ -158,3 +158,10 @@ trojan://15c2491a-01d2-4d36-b4c4-7095682368cd@autotrader.co.uk:443?security=tls&
 
 ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206TldJMU5XSmpPV1l5TldSa05EZGxZamxtTURNeFlUYzJOMk01WW1VMFlqVT06TVRWak1qUTVNV0V3TVdReU5HUXpObUkwWXpRM01EazFOamd5TXpZNFkyUT0=@sublinkhiddify.makingirangreatagain.com:19458#CPI_SS_%20ShadowSocks2022
 
+vless://8899db73-3a64-4c1c-b8b1-7dc826b41caf@www.speedtest.net:443?encryption=none&security=tls&sni=npvforios.zanddynastyofpersia.org&alpn=h2&fp=chrome&type=ws&host=npvforios.zanddynastyofpersia.org&path=%2F8899db73-3a64-4c1c-b8b1-7dc826b41caf#npvios1
+
+vless://8899db73-3a64-4c1c-b8b1-7dc826b41caf@braze.com:443?encryption=none&security=tls&sni=npvforios.zanddynastyofpersia.org&alpn=h2&fp=chrome&type=ws&host=npvforios.zanddynastyofpersia.org&path=%2F8899db73-3a64-4c1c-b8b1-7dc826b41caf#npvios2
+
+vless://8899db73-3a64-4c1c-b8b1-7dc826b41caf@indeed.com:443?encryption=none&security=tls&sni=npvforios.zanddynastyofpersia.org&alpn=h2&fp=chrome&type=ws&host=npvforios.zanddynastyofpersia.org&path=%2F8899db73-3a64-4c1c-b8b1-7dc826b41caf#npvios3
+
+vless://8899db73-3a64-4c1c-b8b1-7dc826b41caf@w3.org:443?encryption=none&security=tls&sni=npvforios.zanddynastyofpersia.org&alpn=h2%2Chttp%2F1.1&fp=chrome&type=ws&host=npvforios.zanddynastyofpersia.org&path=%2F8899db73-3a64-4c1c-b8b1-7dc826b41caf#npvios4
