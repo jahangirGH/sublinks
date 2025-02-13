@@ -64,14 +64,7 @@
                 "flow": ""
               }
             ]
-          }
-        ]
-      },
-          {
-      "tag": "proxy",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
+          },
           {
             "address": "openai.com",
             "port": 443,
@@ -85,15 +78,8 @@
                 "flow": ""
               }
             ]
-          }
-        ]
-      },
-         {
-      "tag": "proxy",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
+          },
+             {
             "address": "footofan.com",
             "port": 443,
             "users": [
@@ -107,9 +93,10 @@
               }
             ]
           }
+
         ]
       },
-
+      
 
       "streamSettings": {
         "network": "ws",
@@ -194,4 +181,3 @@
     ]
   }
 }
-
