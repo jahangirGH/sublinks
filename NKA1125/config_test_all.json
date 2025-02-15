@@ -131,7 +131,8 @@
                 "Best Ping 💥",
                 "1 - VLESS F - Domain : 443",
                 "2 - VLESS F - Domain : 443",
-                "3 - VLESS F - IPv4 : 443"
+                "3 - VLESS F - Domain : 443",
+                "4 - VLESS F - Domain : 443"
             ]
         },
         {
@@ -140,7 +141,8 @@
             "outbounds": [
                 "1 - VLESS F - Domain : 443",
                 "2 - VLESS F - Domain : 443",
-                "3 - VLESS F - IPv4 : 443"
+                "3 - VLESS F - Domain : 443",
+                "4 - VLESS F - Domain : 443"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "30s"
@@ -247,7 +249,39 @@
                 "path": "/",
                 "type": "ws"
             },
-            "tag": "3 - VLESS F - IPv4 : 443",
+            "tag": "3 - VLESS F - Domain : 443",
+            "tls_fragment": {
+                "enabled": true,
+                "size": "100-200",
+                "sleep": "1-1"
+            }
+        },
+          {
+            "type": "vless",
+            "server": "thailandnet65.ir",
+            "server_port": 443,
+            "domain_strategy": "ipv4_only",
+            "uuid": "24d9a79e-de35-45dc-ad02-ffbb5ed403a7",
+            "tls": {
+                "alpn": "h2,http/1.1",
+                "enabled": true,
+                "insecure": false,
+                "server_name": "nkAnG2rEpLACE.airlineSHoma.Com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "nkAnG2rEpLACE.airlineSHoma.Com"
+                },
+                "path": "/",
+                "type": "ws"
+            },
+            "tag": "4 - VLESS F - Domain : 443",
             "tls_fragment": {
                 "enabled": true,
                 "size": "100-200",
