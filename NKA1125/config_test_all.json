@@ -128,10 +128,22 @@
             "type": "selector",
             "tag": "✅ Selector",
             "outbounds": [
+                "Best Ping 💥",
                 "1 - VLESS F - Domain : 443",
                 "2 - VLESS F - Domain : 443",
                 "3 - VLESS F - IPv4 : 443"
             ]
+        },
+        {
+            "type": "urltest",
+            "tag": "Best Ping 💥",
+            "outbounds": [
+                "1 - VLESS F - Domain : 443",
+                "2 - VLESS F - Domain : 443",
+                "3 - VLESS F - IPv4 : 443"
+            ],
+            "url": "https://www.gstatic.com/generate_204",
+            "interval": "30s"
         },
         {
             "type": "direct",
@@ -232,7 +244,7 @@
                 "headers": {
                     "Host": "nkAnG2rEpLACE.airlineSHoma.Com"
                 },
-                "path": "/mSUsWIPxveSe7N9t",
+                "path": "/",
                 "type": "ws"
             },
             "tag": "3 - VLESS F - IPv4 : 443",
