@@ -24,7 +24,7 @@
         "rules": [
             {
                 "domain": [
-                    "seyed.maintainhydraulic.ir",
+                    "nkAnG2rEpLACE.airlineSHoma.Com",
                     "www.speedtest.net",
                     "indeed.com"
                 ],
@@ -165,7 +165,7 @@
             "domain_strategy": "ipv4_only",
             "uuid": "24d9a79e-de35-45dc-ad02-ffbb5ed403a7",
             "tls": {
-                "alpn": "http/1.1",
+                "alpn": "h2,http/1.1",
                 "enabled": true,
                 "insecure": false,
                 "server_name": "nkAnG2rEpLACE.airlineSHoma.Com",
@@ -197,7 +197,7 @@
             "domain_strategy": "ipv4_only",
             "uuid": "24d9a79e-de35-45dc-ad02-ffbb5ed403a7",
             "tls": {
-                "alpn": "http/1.1",
+                "alpn": "h2,http/1.1",
                 "enabled": true,
                 "insecure": false,
                 "server_name": "nkAnG2rEpLACE.airlineSHoma.Com",
@@ -229,7 +229,7 @@
             "domain_strategy": "ipv4_only",
             "uuid": "24d9a79e-de35-45dc-ad02-ffbb5ed403a7",
             "tls": {
-                "alpn": "http/1.1",
+                "alpn": "h2,http/1.1",
                 "enabled": true,
                 "insecure": false,
                 "server_name": "nkAnG2rEpLACE.airlineSHoma.Com",
