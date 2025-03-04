@@ -4,6 +4,10 @@ hysteria2://R1DloE8f7T@104.238.167.204:2053?fastopen=0&insecure=1&obfs=salamande
 
 hysteria2://R1DloE8f7T@104.238.167.204:2083?fastopen=0&insecure=1&obfs=salamander&obfs-password=t%23AbrO_2isIs0UwoHu%26i#hys2CPIPQ
 
+hysteria2://6b389472-9094-4c8a-a780-3d371b2eade5@hyshdfy8312.makingirangreatagain.com:25444?hiddify=1&obfs=salamander&obfs-password=3JuQOL32nT5rUt1nNxAX&sni=hyshdfy8312.makingirangreatagain.com#Hysteria2CPI
+
+tuic://6b389472-9094-4c8a-a780-3d371b2eade5:6b389472-9094-4c8a-a780-3d371b2eade5@hyshdfy8312.makingirangreatagain.com:35403?congestion_control=cubic&udp_relay_mode=native&sni=hyshdfy8312.makingirangreatagain.com&alpn=h3#TUICCPI
+
 vless://aaf8a6c9-aaad-4f85-dd01-9ccd4ca554f9@xraypsiphon.sassanidempire.com:443?encryption=none&security=tls&sni=xraypsiphon.sassanidempire.com&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=xraypsiphon.sassanidempire.com&path=%2Fwspath#CPI_psi_Xray
 
 
