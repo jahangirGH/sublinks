@@ -1,3 +1,5 @@
+hy2://37ff019f4a35e6da@rplcehysttya6.airlineshoma.com:443/?obfs=salamander&obfs-password=6c80ade6#irancpi2
+
 hysteria2://6b389472-9094-4c8a-a780-3d371b2eade5@hyshdfy8312.makingirangreatagain.com:25444?hiddify=1&obfs=salamander&obfs-password=3JuQOL32nT5rUt1nNxAX&sni=hyshdfy8312.makingirangreatagain.com#Hysteria2CPI
 
 tuic://6b389472-9094-4c8a-a780-3d371b2eade5:6b389472-9094-4c8a-a780-3d371b2eade5@hyshdfy8312.makingirangreatagain.com:35403?congestion_control=cubic&udp_relay_mode=native&sni=hyshdfy8312.makingirangreatagain.com&alpn=h3#TUICCPI
